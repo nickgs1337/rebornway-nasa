@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
 import {makeStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Poluicao1 from "./pollutants.jpg";
+import Poluicao1 from "./polluents.png";
 import PollutionMap from "../../WorldMap/PollutionMap";
 
 const useStyles = makeStyles({
@@ -17,27 +17,29 @@ const PollutantsArticle = () => {
 
   const classes = useStyles();
     return <Grid container spacing={3}>
-        <Grid item xs={9} >
+        <Grid item xs={13} >
             <Grid container spacing={3}>
                 <Grid item xs={12} >
                     <Card className={classes.root}>
                         <CardContent >
                             <Typography variant="h4" component="h2">
-                                Poluentes
+                                Pollutants
                             </Typography>
+
+                            <br />
                             <br />
 
-                            <img src={Poluicao1} alt="" width={'650px'} height={'400px'}/>
+                            <img src={Poluicao1} alt="" width={'100%'}/>
                             <p>
                             <br />
-                            <br />
+
                             <Typography variant="h6" component="h2">
-                            MP2,5 E MP0,1:
+                            MP2,5 and MP0,1:
                             </Typography>
                             <ul>
-                                <li> <b>Definição:</b> Mistura complexa de sólidos com diâmetro reduzido, cujos componentes apresentam características físicas e químicas diversas</li>
-                                <li> <b>Fontes:</b> Queima de combustíveis fósseis e de biomassa, usinas termoelétricas</li>
-                                <li> <b>Penetração no sistema respiratório:</b> Alvéolos, tecido pulmonar e corrente sanguínea</li>
+                                <li> <b>Definition:</b> Complex mixture of solids with reduced diameter, whose components have different physical and chemical characteristics</li>
+                                <li> <b>Sources:</b> Burning of fossil fuels and biomass, thermoelectric plants</li>
+                                <li> <b>Penetration into the respiratory system:</b> Alveoli, lung tissue and bloodstream</li>
                             </ul>
                             </p>
                             <p>
@@ -45,9 +47,9 @@ const PollutantsArticle = () => {
                             O3:
                             </Typography>
                             <ul>
-                                <li> <b>Definição:</b> Poluente secundário, ou seja, não é emitido diretamente, mas formado a partir de outros poluentes atmosféricos, e altamente oxidante na troposfera</li>
-                                <li> <b>Fontes Antropogênicas:</b> Sua formação ocorre através de reações químicas complexas entre compostos orgânicos voláteis e óxidos de nitrogênio na presença de luz solar</li>
-                                <li> <b>Penetração no sistema respiratório:</b> Traqueia, brônquios, bronquíolos e alvéolos</li>
+                                <li> <b>Definition:</b> Secondary pollutant, it means that it isn´t emitted directly, but formed from other air pollutants, and highly oxidizing in the troposphere</li>
+                                <li> <b>Anthropogenic Sources:</b> Its formation occurs through complex chemical reactions between volatile organic compounds and nitrogen oxides in the presence of sunlight</li>
+                                <li> <b>Penetration into the respiratory system:</b> Trachea, bronchi, bronchioles and alveoli</li>
                             </ul>
                         </p>
                             <p>
@@ -55,10 +57,10 @@ const PollutantsArticle = () => {
                             NOx, NO2:
                             </Typography>
                             <ul>
-                                <li> <b>Definição:</b> Gás poluente com ação altamente oxidante, sua presença na atmosfera é fator chave na formação do ozônio troposférico</li>
-                                <li> <b>Fontes Antropogênicas:</b> Indústrias de ácido nítrico e sulfúrico, motores de combustão e usinas térmicas que utilizam gás ou incinerações</li>
-                                <li> <b>Fontes naturais:</b> Descargas elétricas na atmosfera</li>
-                                <li> <b>Penetração no sistema respiratório:</b> Traqueia, brônquios, bronquíolos, alvéolos</li>
+                                <li> <b>Definition:</b> Polluting gas with highly oxidizing action, its presence in the atmosphere is a key factor in the formation of tropospheric ozone</li>
+                                <li> <b>Anthropogenic Sources:</b> Nitric and sulfuric acid industries, combustion engines and thermal plants that use gas or incinerations</li>
+                                <li> <b>Natural sources:</b> Electric discharges in the atmosphere</li>
+                                <li> <b>Penetration into the respiratory system:</b> Trachea, bronchi, bronchioles, alveoli</li>
                             </ul>
                             </p>
                             <p>
@@ -66,10 +68,10 @@ const PollutantsArticle = () => {
                             SO2:
                             </Typography>
                             <ul>
-                                <li> <b>Definição:</b> Gás tóxico e incolor, pode ser emitido por fontes naturais ou por fontes antropogênicas e pode reagir com outros compostos na atmosfera, formando material particulado de diâmetro reduzido</li>
-                                <li> <b>Fontes Antropogênicas:</b> Refinarias de petróleo, veículos a diesel e fabricação de papel</li>
-                                <li> <b>Fontes naturais:</b> Atividade vulcânica</li>
-                                <li> <b>Penetração no sistema respiratório:</b> Vias aéreas superiores, traqueia, brônquios, bronquíolos</li>
+                                <li> <b>Definition:</b> Toxic and colorless gas, can be emitted by natural sources or by anthropogenic sources and can react with other compounds in the atmosphere, forming particulate matter of reduced diameter</li>
+                                <li> <b>Anthropogenic Sources:</b> Oil refineries, diesel vehicles and paper manufacturers</li>
+                                <li> <b>Natural sources:</b> Volcanic activity</li>
+                                <li> <b>Penetration into the respiratory system:</b> Upper airways, trachea, bronchi, bronchioles</li>
                             </ul>
                             </p>
                             <p>
@@ -77,10 +79,10 @@ const PollutantsArticle = () => {
                             CO:
                             </Typography>
                             <ul>
-                                <li> <b>Definição:</b> Gás inodoro e incolor, formado no processo de queima de combustíveis</li>
-                                <li> <b>Fontes Antropogênicas:</b> Queimadas florestais, combustão incompleta de combustíveis fósseis ou outros materiais orgânicos e transportes rodoviárias</li>
-                                <li> <b>Fontes naturais:</b> Erupções vulcânicas e decomposição da clorofila</li>
-                                <li> <b>Penetração no sistema respiratório:</b> Alvéolos, corrente sanguínea</li>
+                                <li> <b>Definition:</b> Odorless and colorless gas, formed in the fuel burning process</li>
+                                <li> <b>Anthropogenic Sources:</b> Forest fires, incomplete combustion of fossil fuels or other organic materials and road transport</li>
+                                <li> <b>Natural sources:</b> Volcanic eruptions and chlorophyll decomposition</li>
+                                <li> <b>Penetration into the respiratory system:</b> Alveoli, bloodstream</li>
                             </ul>
                             </p>
                         </CardContent>
@@ -91,7 +93,7 @@ const PollutantsArticle = () => {
                 </Grid>
             </Grid>
         </Grid>
-        <Grid item xs={3} >
+        <Grid item xs={12} >
             <Card className={classes.root}>
                 <CardContent >
                     <Typography variant="h5" component="h2">

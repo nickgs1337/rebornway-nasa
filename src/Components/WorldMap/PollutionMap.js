@@ -128,7 +128,7 @@ const PollutionMap = () => {
                         textAlign: 'center'
                     }}
                     variant="h5" component="h2">
-                    Cidades mais poluidas
+                    Most polluted cities
                 </Typography>
                 <Chart
                     width={"100%"}

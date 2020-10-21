@@ -18,7 +18,7 @@ const CovidArticle = () => {
 
   const classes = useStyles();
   return <Grid container spacing={3}>
-        <Grid item xs={9} >
+        <Grid item xs={12} >
             <Card className={classes.root}>
               <CardContent >
                   <Typography variant="h4" component="h2">
@@ -29,140 +29,149 @@ const CovidArticle = () => {
                   <br />
 
                   <Typography variant="h6" component="h2">
-                  O que é a COVID-19?
+                  What is the COVID-19 pandemic?
                   </Typography>
+
+                  <br />
 
                   <iframe
                       id="embedded-human"
                       frameBorder="0"
-                      width="700"
+                      width="100%"
                       height="550"
                       allowFullScreen="true"
                       src="https://human.biodigital.com/viewer/?be=3vNO&ui-info=true&ui-search=true&ui-reset=true&ui-fullscreen=true&ui-nav=true&ui-tools=true&ui-help=true&ui-chapter-list=false&ui-label-list=true&ui-anatomy-descriptions=false&ui-tutorial=false&ui-loader=bar&ui-whiteboard=true&disable-scroll=false&uaid=6hfuh">
                   </iframe>
 
-                  <br/>
+                  <br />
+                  <br />
 
-                  Os primeiros casos do coronavírus (COVID-19) tiveram origem no mercado de frutos do mar da cidade de Wuhan localizada na China, as primeiras ocorrências foram relatadas na virada do ano 31/12/2020 e a incidência aumentou exponencialmente nas primeiras semanas.
+                  The first cases of Coronavirus (COVID-19) originated in a seafood market in the city of Wuhan located in China, the first occurrences were reported at the new year of December 31st, 2020, and the incidence increased exponentially during the first weeks.
 
-                  <br/>
+                  <br />
+                  <br />
 
                   <Typography variant="h6" component="h2">
-                      Quantos casos há no mundo?
+                      How many cases are there in the world?
                   </Typography>
+
+                  <br />
+                  <br />
 
                   <CovidInfectionMap/>
 
-                  <br/>
+                  <br />
+                  <br />
+
                   <p>
                       <Typography variant="h6" component="h2">
-                        Quais são os sinais e sintomas?
+                        What are the signs and symptoms?
                       </Typography>
+
+                      <br />
 
                       <ul style={{
                           marginTop: 0,
                       }}>
-                          <li> Tosse</li>
-                          <li> Febre</li>
-                          <li> Coriza</li>
-                          <li> Dor de garganta</li>
-                          <li> Dificuldade para respirar</li>
-                          <li> Perda de olfato (anosmia)</li>
-                          <li> Alteração do paladar (ageusia)</li>
-                          <li> Distúrbios gastrintestinais (náuseas/vômitos/diarreia)</li>
-                          <li> Cansaço (astenia)</li>
-                          <li> Diminuição do apetite (hiporexia)</li>
-                          <li> Dispnéia (falta de ar)</li>
+                          <li> Cough</li>
+                          <li> Fever</li>
+                          <li> Coryza</li>
+                          <li> Sore throat</li>
+                          <li> Hard breathing</li>
+                          <li> Loss of smell (anosmia)</li>
+                          <li> Taste alteration (ageusia)</li>
+                          <li> Gastrointestinal disorders (nausea, vomiting, diarrhea)</li>
+                          <li> Tiredness (asthenia)</li>
+                          <li> Decreased appetite (hyporexia)</li>
+                          <li> Dyspnea (shortness of breath)</li>
                       </ul>
                   </p>
 
                   <Typography variant="h6" component="h2">
-                      Como é a transmissão?
+                      How does transmission occur?
                   </Typography>
 
+                  <br />
 
                   <ul style={{
                       marginTop: 0,
                   }}>
-                      <li> Toque do aperto de mãos contaminadas</li>
-                      <li> Gotículas de saliva</li>
-                      <li> Espirro</li>
-                      <li> Tosse</li>
-                      <li> Catarro</li>
-                      <li> Objetos ou superfícies contaminadas, como celulares, mesas, talheres, maçanetas, brinquedos, teclados de computador</li>
+                      <li> Handshakes (if the individuals were contaminated)</li>
+                      <li> Droplets of saliva</li>
+                      <li> Sneeze</li>
+                      <li> Cough</li>
+                      <li> Catarrh</li>
+                      <li> Possible contaminated objects or surfaces, such as cell phones, tables, cutlery, door handles, toys and computer keyboards</li>
                   </ul>
-                  <img src={CovidTransmissao} alt=""/>
 
                   <Typography variant="h6" component="h2">
-                  Qual o diagnóstico?
+                      What is the most recurrent diagnosis?
                   </Typography>
 
-                  <p> <b>1 - O DIAGNÓSTICO CLÍNICO</b><br/>
-                  É realizado pelo médico atendente, que deve avaliar a possibilidade da doença, principalmente, em pacientes com a associação dos seguintes sinais e sintomas:
+                  <p> <b>The clinical diagnosis</b><br/>
+                      It is performed by the medical care, who must evaluate the possibility of the disease, especially in patients with the association of the following signs and symptoms:
                   <ul>
-                      <li> Febre, que pode estar presente no momento do exame clínico ou referida pelo paciente (sensação febril) de ocorrência recente</li>
-                      <li> Sintomas do trato respiratório (por exemplo, tosse, dispneia, coriza, dor de garganta)</li>
-                      <li> Outros sintomas consistentes incluindo, mialgias, distúrbios gastrointestinais (diarreia/náuseas/vômitos), perda ou diminuição do olfato (anosmia) ou perda ou diminuição do paladar (ageusia)</li>
+                      <li> Fever, which may be present at the time of the clinical examination or reported by the patient (feverish sensation) of recent occurrence</li>
+                      <li> Respiratory tract symptoms (for example, cough, dyspnoea, runny nose, sore throat)</li>
+                      <li> Other consistent symptoms including, myalgia, gastrointestinal disorders (diarrhea, nausea, vomiting), loss or decreased smell (anosmia) or loss or decreased taste (ageusia)</li>
                   </ul>
                   </p>
-                  <p> <b>2 - O DIAGNÓSTICO CLÍNICO-EPIDEMIOLÓGICO</b><br/>
-                  É realizado pelo médico atendente no qual considera-se:
+                  <p> <b>The clinical-epidemiological diagnosis</b><br/>
+                      It is performed by the attending physician in which it is considered patients cases with the association of the signs and symptoms already mentioned or Severe acute respiratory syndrome history of close or home contact, in the last 14 days before the onset of symptoms, with a laboratory confirmed case for COVID-19 and for which it was not possible to carry out the laboratory investigation specific.
+                  </p>
+                  <p> <b>Clinical image diagnosis</b><br/>
+                      Case of respiratory symptoms plus fever or SARS or death due to SARS that could not be confirmed or ruled out by laboratory criteria and with tomographic changes.
+                  </p>
+                  <p> <b>Laboratory diagnosis</b><br/>
+                      If the patient has respiratory symptoms plus fever or Severe acute respiratory syndrome (SARS). The health professional may request the following laboratory tests:
                   <ul>
-                      <li> Casos de paciente com a associação dos sinais e sintomas supracitados ou SRAG mais histórico de contato próximo ou domiciliar, nos últimos 14 dias antes do aparecimento dos sintomas, com caso confirmado laboratorialmente para COVID-19 e para o qual não foi possível realizar a investigação laboratorial específica</li>
+                      <li> Molecular biology, (RT-PCR in real time) that diagnoses both COVID-19, Influenza or the presence of Respiratory Syncytial Virus (RSV), usually until the eighth day of symptom onset</li>
+                      <li> Immunological, which detects, or not, the presence of antibodies in samples collected from the eighth day of symptom onset. Being them:</li>
+                      <ul>
+                        <li> Immunoenzymatic assay (Enzyme-Linked Immunosorbent Assay - ELISA)</li>
+                        <li> Immunochromatography (quick test) for antibody detection</li>
+                        <li> Electrochemiluminescence immunoassay (ECLIA)</li>
+                        <li> Antigen search: reagent result for SARS-CoV-2 by the  immunochromatography method for antigen detection</li>
+                      </ul>
                   </ul>
                   </p>
-                  <p> <b>3 - DIAGNÓSTICO CLÍNICO-IMAGEM:</b><br/>
+                  <p> <b>Laboratory diagnosis in asymptomatic individual</b><br />
+                      For people without symptoms, there are some exam options, such as:
                   <ul>
-                      <li> Caso de sintomas respiratório mais febre ou SRAG ou óbito por SRAG que não foi possível confirmar ou descartar por critério laboratorial E que apresente alterações tomográficas.</li>
-                  </ul>
-                  </p>
-                  <p> <b>4 - DIAGNÓSTICO LABORATORIAL</b><br/>
-                  Caso o paciente apresente os sintomas respiratórios mais febre ou SRAG. O profissional de saúde poderá solicitar os seguintes exames laboratoriais:
-                  <ul>
-                      <li> De biologia molecular, (RT-PCR em tempo real) que diagnostica tanto a COVID-19, a Influenza ou a presença de Vírus Sincicial Respiratório (VSR) normalmente até o oitavo dia de início de sintomas</li>
-                      <li> Imunológico, que detecta, ou não, a presença de anticorpos em amostras coletadas a partir do oitavo dia de início dos sintomas. Sendo eles:</li>
-                      <li> Ensaio imunoenzimático (Enzyme-Linked Immunosorbent Assay - ELISA)</li>
-                      <li> Imunocromatografia (teste rápido) para detecção de anticorpos</li>
-                      <li> Imunoensaio por Eletroquimioluminescência (ECLIA)</li>
-                      <li> Pesquisa de antígenos: resultado reagente para SARS-CoV-2 pelo método de Imunocromatografia para detecção de antígeno</li>
-                  </ul>
-                  </p>
-                  <p> <b>5 - DIAGNÓSTICO LABORATORIAL EM INDIVÍDUO ASSINTOMÁTICO (pessoa sem sintomas) que realizou:</b><br/>
-                  <ul>
-                      <li>Exame de Biologia Molecular com resultado DETECTÁVEL para SARS-CoV-2 realizado pelo método RT-PCR em tempo real</li>
-                      <li>Exame de Imunológico com resultado REAGENTE para IgM e/ou IgA realizado pelos seguintes métodos:  Ensaio imunoenzimático (ELISA) e Imunocromatografia (teste rápido) para detecção de anticorpos</li>
+                      <li>Molecular Biology exam with detectable result for SARS-CoV-2 performed by the RT-PCR method in real time</li>
+                      <li>Immunological exam with reagent result for IgM and/or IgA performed by the following methods: Immunoenzymatic assay (ELISA) and Immunochromatography (quick test) for antibody detection</li>
                   </ul>
                   </p>
                   <Typography variant="h6" component="h2">
-                  Qual a prevenção?
+                      How to prevent?
                   </Typography>
 
                   <ul>
-                      <li> Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%. Essa frequência deve ser ampliada quando estiver em algum ambiente público (ambientes de trabalho, prédios e instalações comerciais, etc), quando utilizar estrutura de transporte público ou tocar superfícies e objetos de uso compartilhado</li>
-                      <li> Ao tossir ou espirrar, cubra nariz e boca com lenço ou com a parte interna do cotovelo</li>
-                      <li> Não tocar olhos, nariz, boca ou a máscara de proteção fácil com as mãos não higienizadas</li>
-                      <li> Se tocar olhos, nariz, boca ou a máscara, higienize sempre as mãos como já indicado</li>
-                      <li> Mantenha distância mínima de 1 (um) metro entre pessoas em lugares públicos e de convívio social. Evite abraços, beijos e apertos de mãos. Adote um comportamento amigável sem contato físico, mas sempre com um sorriso no rosto.</li>
-                      <li> Higienize com frequência o celular, brinquedos das crianças e outro objetos que são utilizados com frequência</li>
-                      <li> Não compartilhe objetos de uso pessoal como talheres, toalhas, pratos e copos</li>
-                      <li> Mantenha os ambientes limpos e bem ventilados</li>
-                      <li> Evite circulação desnecessária nas ruas, estádios, teatros, shoppings, shows, cinemas e igrejas</li>
-                      <li> Se estiver doente, evite contato próximo com outras pessoas, principalmente idosos e doentes crônicos, busque orientação pelos canais on-line disponibilizados pelo SUS ou atendimento nos serviços de saúde e siga as recomendações do profissional de saúde</li>
-                      <li> Durma bem e tenha uma alimentação saudável</li>
-                      <li> Recomenda-se a utilização de máscaras em todos os ambientes.  As máscaras de tecido (caseiras/artesanais), não são Equipamentos de Proteção Individual (EPI), mas podem funcionar como uma barreira física, em especial contra a saída de gotículas potencialmente contaminadas</li>
+                      <li> Wash your hands frequently up to the wrists with soap and water, or clean them with 70% gel alcohol. This frequency should be increased when you are in a public environment (work environments, buildings and commercial facilities) when using public transport structures or touching surfaces and objects for shared use</li>
+                      <li> When coughing or sneezing, cover your nose and mouth with a tissue or the inside of your elbow</li>
+                      <li> Do not touch your eyes, nose, mouth or the easy protection mask with unhygienic hands</li>
+                      <li> If you touch your eyes, nose, mouth or mask, always clean your hands as indicated</li>
+                      <li> Keep a minimum distance of one meter between people in public and social places. Avoid hugs, kisses and handshakes. Adopt friendly behavior without physical contact, but always with a smile on your face</li>
+                      <li> Frequently sanitize the cell phone, children's toys and other objects that are used frequently</li>
+                      <li> Do not share personal items such as cutlery, towels, plates and glasses.</li>
+                      <li> Keep environments clean and well ventilated</li>
+                      <li> Avoid unnecessary circulation in the streets, stadiums, theaters, shopping malls, shows, cinemas and churches</li>
+                      <li> If you are sick, avoid close contact with other people, especially the elderly and chronically ill, seek guidance through the online channels provided by SUS or attendance at health services and follow the recommendations of the health professional</li>
+                      <li> Sleep well and eat healthy</li>
+                      <li> The use of masks is recommended in all environments. Fabric masks (homemade, handcrafted) are not Individual Protection Equipment (PPE), but can act as a physical barrier, especially against the exit of potentially contaminated droplets</li>
                   </ul>
                   <Typography variant="h6" component="h2">
-                  Qual a influência da poluição atmosférica no COVID-19?
+                      What is the influence of air pollution on COVID-19?
                   </Typography>
 
-                  <p> A poluição do ar é um fator contribuinte e oculto no agravamento da carga global de mortes relacionadas ao COVID-19. Poluição pode ser medida de várias formas, a mais comum são as matérias particuladas, que variam de PM 2.5 até PM 10 variando em tamanho.</p>
-                  <p> As PMs, que podem ser encontradas em cidades com altos índices de poluição do ar, são utilizadas pelo vírus para a transmissão, ou seja, em uma cidade com o ar poluído as transmissões da doença pelo ar são mais comuns.</p>
-                  <p> Acerca da poluição no interior de casas e apartamentos isso ocorre devido a fatores como uso de fogões mal projetados, geladeiras e ventilação deficiente. E isso acarreta os mesmo problemas, um ar rico em poluentes nocivos dessa vez dentro da sua própria residência.</p>
+                  <p> Air pollution is a contributing and hidden factor in the worsening global burden of deaths related to COVID-19. Pollution can be measured in several ways, the most common being particulate matter, ranging from PM 2.5 to PM 10 varying in size.</p>
+                  <p> PMs, which can be found in cities with high levels of air pollution, are used by the virus for transmission, that is, in a city with polluted air, airborne disease transmissions are more common.</p>
+                  <p> As for pollution inside houses and apartments, this is due to factors such as the use of poorly designed stoves, refrigerators and poor ventilation. And that causes the same problems, an air rich in harmful pollutants, but this time inside your own home.</p>
 
               </CardContent>
           </Card>
         </Grid>
-          <Grid item xs={3} >
+          <Grid item xs={12} >
               <Card className={classes.root}>
                   <CardContent >
                       <Typography variant="h5" component="h2">

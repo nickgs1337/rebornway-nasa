@@ -13,7 +13,10 @@ import AcUnitIcon from "@material-ui/icons/AcUnit";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import FilterDramaIcon from "@material-ui/icons/FilterDrama";
 import OpacityIcon from "@material-ui/icons/Opacity";
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
+import EcoIcon from '@material-ui/icons/Eco';
 import {makeStyles} from "@material-ui/core/styles";
+import InfoIcon from '@material-ui/icons/Info';
 import {fade} from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
@@ -22,11 +25,47 @@ import {
 } from "react-router-dom";
 import Divider from "@material-ui/core/Divider";
 import ExposureIcon from '@material-ui/icons/Exposure';
+import WorkIcon from '@material-ui/icons/Work';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PublicIcon from '@material-ui/icons/Public';
 import EuaFlag from './eua-flag.png'
 import GroupIcon from '@material-ui/icons/Group';
 import NavBarItem from "./NavBarItem";
+import DescriptionIcon from '@material-ui/icons/Description';
+import Dropdown from './Dropdown';
+
+const items = [
+    {
+        id: 1,
+        icon: <AcUnitIcon />,
+        title: 'COVID-19',
+        route: '/covid'
+    },
+    {
+        id: 2,
+        icon: <WhatshotIcon />,
+        title: 'Forest firer',
+        route: '/forestfirer'
+    },
+    {
+        id: 3,
+        icon: <FilterDramaIcon />,
+        title: 'Pollutants',
+        route: '/pollutants'
+    },
+    {
+        id: 4,
+        icon: <OpacityIcon />,
+        title: 'Coral',
+        route: '/coral'
+    },
+    {
+        id: 5,
+        icon: <EcoIcon />,
+        title: 'Greenhouse effect',
+        route: '/greenhouse'
+    },
+];
 
 
 const drawerWidth = 240;
@@ -173,20 +212,21 @@ const NavBar = ( {children }) => {
                 name={"Dashboard"}
                 route={"/"}
             />
-            <NavBarItem
+            <Dropdown icon={<DescriptionIcon />} title="Articles" items={items} multiSelect />
+            {/*<NavBarItem
                 icon={<AcUnitIcon />}
                 name={"COVID-19"}
                 route={"/covid"}
             />
             <NavBarItem
                 icon={<WhatshotIcon />}
-                name={"Forest Firer"}
-                route={"/queimada"}
+                name={"Forest firer"}
+                route={"/forestfirer"}
             />
             <NavBarItem
                 icon={<FilterDramaIcon />}
                 name={"Pollutants"}
-                route={"/poluentes"}
+                route={"/pollutants"}
             />
             <NavBarItem
                 icon={<OpacityIcon />}
@@ -194,20 +234,40 @@ const NavBar = ( {children }) => {
                 route={"/coral"}
             />
             <NavBarItem
+                icon={<EcoIcon />}
+                name={"Greenhouse effect"}
+                route={"/greenhouse"}
+            />*/}
+            {/*<NavBarItem
                 icon={<ExposureIcon />}
                 name={"Calcule seu indice de poluição"}
                 onClick={() => {
                     window.location = "https://docs.google.com/spreadsheets/d/1YBfdkCjlajwlHp3vkhliwkTgXlp6Px2zd1rsamBAhfk/edit?usp=sharing";
                 }}
-            />
+            />*/}
             <NavBarItem
                 icon={<FavoriteIcon />}
                 name={"Know our hints"}
-                route={"/recomendacoes"}
+                route={"/recommendations"}
+            />
+            <NavBarItem
+                icon={<WorkIcon />}
+                name={"Become aware"}
+                route={"/becomeaware"}
+            />
+            <NavBarItem
+                icon={<LibraryBooksIcon />}
+                name={"Methodology"}
+                route={"/methodology"}
+            />
+            <NavBarItem
+                icon={<InfoIcon />}
+                name={"About us"}
+                route={"/aboutus"}
             />
             <NavBarItem
                 icon={<GroupIcon />}
-                name={"Meet our Team"}
+                name={"Meet our team"}
                 route={"/team"}
             />
         </div>

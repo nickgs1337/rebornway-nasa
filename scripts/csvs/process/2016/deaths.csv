@@ -1,0 +1,601 @@
+State,Month,Deaths
+Alabama,01/2016,401.0
+Alabama,02/2016,402.0
+Alabama,03/2016,426.0
+Alabama,04/2016,350.0
+Alabama,05/2016,364.0
+Alabama,06/2016,305.0
+Alabama,07/2016,330.0
+Alabama,08/2016,315.0
+Alabama,09/2016,304.0
+Alabama,10/2016,346.0
+Alabama,11/2016,349.0
+Alabama,12/2016,421.0
+Alaska,01/2016,20.0
+Alaska,02/2016,25.0
+Alaska,03/2016,28.0
+Alaska,04/2016,32.0
+Alaska,05/2016,33.0
+Alaska,06/2016,16.0
+Alaska,07/2016,21.0
+Alaska,08/2016,28.0
+Alaska,09/2016,16.0
+Alaska,10/2016,29.0
+Alaska,11/2016,23.0
+Alaska,12/2016,28.0
+Arkansas,01/2016,259.0
+Arkansas,02/2016,237.0
+Arkansas,03/2016,246.0
+Arkansas,04/2016,240.0
+Arkansas,05/2016,244.0
+Arkansas,06/2016,207.0
+Arkansas,07/2016,209.0
+Arkansas,08/2016,204.0
+Arkansas,09/2016,205.0
+Arkansas,10/2016,218.0
+Arkansas,11/2016,253.0
+Arkansas,12/2016,270.0
+Arizona,01/2016,447.0
+Arizona,02/2016,532.0
+Arizona,03/2016,597.0
+Arizona,04/2016,455.0
+Arizona,05/2016,349.0
+Arizona,06/2016,345.0
+Arizona,07/2016,289.0
+Arizona,08/2016,333.0
+Arizona,09/2016,295.0
+Arizona,10/2016,325.0
+Arizona,11/2016,340.0
+Arizona,12/2016,378.0
+California,01/2016,2051.0
+California,02/2016,2029.0
+California,03/2016,2184.0
+California,04/2016,1714.0
+California,05/2016,1561.0
+California,06/2016,1284.0
+California,07/2016,1435.0
+California,08/2016,1296.0
+California,09/2016,1318.0
+California,10/2016,1422.0
+California,11/2016,1498.0
+California,12/2016,1899.0
+Kansas,01/2016,213.0
+Kansas,02/2016,187.0
+Kansas,03/2016,231.0
+Kansas,04/2016,198.0
+Kansas,05/2016,161.0
+Kansas,06/2016,153.0
+Kansas,07/2016,181.0
+Kansas,08/2016,157.0
+Kansas,09/2016,152.0
+Kansas,10/2016,146.0
+Kansas,11/2016,170.0
+Kansas,12/2016,227.0
+North Carolina,01/2016,760.0
+North Carolina,02/2016,660.0
+North Carolina,03/2016,725.0
+North Carolina,04/2016,607.0
+North Carolina,05/2016,569.0
+North Carolina,06/2016,514.0
+North Carolina,07/2016,489.0
+North Carolina,08/2016,514.0
+North Carolina,09/2016,494.0
+North Carolina,10/2016,570.0
+North Carolina,11/2016,590.0
+North Carolina,12/2016,715.0
+South Carolina,01/2016,326.0
+South Carolina,02/2016,362.0
+South Carolina,03/2016,335.0
+South Carolina,04/2016,333.0
+South Carolina,05/2016,292.0
+South Carolina,06/2016,278.0
+South Carolina,07/2016,260.0
+South Carolina,08/2016,232.0
+South Carolina,09/2016,260.0
+South Carolina,10/2016,258.0
+South Carolina,11/2016,308.0
+South Carolina,12/2016,316.0
+Colorado,01/2016,320.0
+Colorado,02/2016,293.0
+Colorado,03/2016,346.0
+Colorado,04/2016,280.0
+Colorado,05/2016,288.0
+Colorado,06/2016,200.0
+Colorado,07/2016,201.0
+Colorado,08/2016,226.0
+Colorado,09/2016,218.0
+Colorado,10/2016,231.0
+Colorado,11/2016,226.0
+Colorado,12/2016,279.0
+Connecticut,01/2016,169.0
+Connecticut,02/2016,191.0
+Connecticut,03/2016,228.0
+Connecticut,04/2016,212.0
+Connecticut,05/2016,168.0
+Connecticut,06/2016,141.0
+Connecticut,07/2016,137.0
+Connecticut,08/2016,136.0
+Connecticut,09/2016,134.0
+Connecticut,10/2016,136.0
+Connecticut,11/2016,159.0
+Connecticut,12/2016,186.0
+North Dakota,01/2016,36.0
+North Dakota,02/2016,47.0
+North Dakota,03/2016,52.0
+North Dakota,04/2016,48.0
+North Dakota,05/2016,24.0
+North Dakota,06/2016,46.0
+North Dakota,07/2016,32.0
+North Dakota,08/2016,33.0
+North Dakota,09/2016,37.0
+North Dakota,10/2016,48.0
+North Dakota,11/2016,23.0
+North Dakota,12/2016,22.0
+South Dakota,01/2016,66.0
+South Dakota,02/2016,50.0
+South Dakota,03/2016,59.0
+South Dakota,04/2016,65.0
+South Dakota,05/2016,60.0
+South Dakota,06/2016,46.0
+South Dakota,07/2016,39.0
+South Dakota,08/2016,47.0
+South Dakota,09/2016,37.0
+South Dakota,10/2016,44.0
+South Dakota,11/2016,51.0
+South Dakota,12/2016,57.0
+Delaware,01/2016,81.0
+Delaware,02/2016,48.0
+Delaware,03/2016,68.0
+Delaware,04/2016,65.0
+Delaware,05/2016,57.0
+Delaware,06/2016,44.0
+Delaware,07/2016,62.0
+Delaware,08/2016,41.0
+Delaware,09/2016,58.0
+Delaware,10/2016,54.0
+Delaware,11/2016,48.0
+Delaware,12/2016,50.0
+Florida,01/2016,1344.0
+Florida,02/2016,1342.0
+Florida,03/2016,1566.0
+Florida,04/2016,1272.0
+Florida,05/2016,1245.0
+Florida,06/2016,1111.0
+Florida,07/2016,1137.0
+Florida,08/2016,1085.0
+Florida,09/2016,1016.0
+Florida,10/2016,1140.0
+Florida,11/2016,1212.0
+Florida,12/2016,1308.0
+Georgia,01/2016,610.0
+Georgia,02/2016,552.0
+Georgia,03/2016,652.0
+Georgia,04/2016,531.0
+Georgia,05/2016,452.0
+Georgia,06/2016,458.0
+Georgia,07/2016,464.0
+Georgia,08/2016,486.0
+Georgia,09/2016,438.0
+Georgia,10/2016,463.0
+Georgia,11/2016,490.0
+Georgia,12/2016,632.0
+Hawaii,01/2016,82.0
+Hawaii,02/2016,66.0
+Hawaii,03/2016,90.0
+Hawaii,04/2016,72.0
+Hawaii,05/2016,52.0
+Hawaii,06/2016,45.0
+Hawaii,07/2016,58.0
+Hawaii,08/2016,73.0
+Hawaii,09/2016,69.0
+Hawaii,10/2016,66.0
+Hawaii,11/2016,89.0
+Hawaii,12/2016,87.0
+Idaho,01/2016,103.0
+Idaho,02/2016,93.0
+Idaho,03/2016,112.0
+Idaho,04/2016,96.0
+Idaho,05/2016,90.0
+Idaho,06/2016,92.0
+Idaho,07/2016,65.0
+Idaho,08/2016,86.0
+Idaho,09/2016,97.0
+Idaho,10/2016,70.0
+Idaho,11/2016,64.0
+Idaho,12/2016,104.0
+Rhode Island,01/2016,54.0
+Rhode Island,02/2016,54.0
+Rhode Island,03/2016,71.0
+Rhode Island,04/2016,63.0
+Rhode Island,05/2016,61.0
+Rhode Island,06/2016,40.0
+Rhode Island,07/2016,27.0
+Rhode Island,08/2016,53.0
+Rhode Island,09/2016,34.0
+Rhode Island,10/2016,48.0
+Rhode Island,11/2016,50.0
+Rhode Island,12/2016,55.0
+Illinois,01/2016,737.0
+Illinois,02/2016,728.0
+Illinois,03/2016,827.0
+Illinois,04/2016,657.0
+Illinois,05/2016,653.0
+Illinois,06/2016,615.0
+Illinois,07/2016,584.0
+Illinois,08/2016,552.0
+Illinois,09/2016,582.0
+Illinois,10/2016,608.0
+Illinois,11/2016,586.0
+Illinois,12/2016,681.0
+Indiana,01/2016,498.0
+Indiana,02/2016,444.0
+Indiana,03/2016,560.0
+Indiana,04/2016,450.0
+Indiana,05/2016,439.0
+Indiana,06/2016,363.0
+Indiana,07/2016,364.0
+Indiana,08/2016,371.0
+Indiana,09/2016,393.0
+Indiana,10/2016,402.0
+Indiana,11/2016,388.0
+Indiana,12/2016,504.0
+Iowa,01/2016,231.0
+Iowa,02/2016,224.0
+Iowa,03/2016,260.0
+Iowa,04/2016,241.0
+Iowa,05/2016,208.0
+Iowa,06/2016,176.0
+Iowa,07/2016,162.0
+Iowa,08/2016,186.0
+Iowa,09/2016,184.0
+Iowa,10/2016,201.0
+Iowa,11/2016,208.0
+Iowa,12/2016,229.0
+Kentucky,01/2016,456.0
+Kentucky,02/2016,407.0
+Kentucky,03/2016,426.0
+Kentucky,04/2016,388.0
+Kentucky,05/2016,350.0
+Kentucky,06/2016,296.0
+Kentucky,07/2016,350.0
+Kentucky,08/2016,307.0
+Kentucky,09/2016,333.0
+Kentucky,10/2016,325.0
+Kentucky,11/2016,350.0
+Kentucky,12/2016,386.0
+Louisiana,01/2016,267.0
+Louisiana,02/2016,245.0
+Louisiana,03/2016,272.0
+Louisiana,04/2016,228.0
+Louisiana,05/2016,270.0
+Louisiana,06/2016,240.0
+Louisiana,07/2016,221.0
+Louisiana,08/2016,225.0
+Louisiana,09/2016,224.0
+Louisiana,10/2016,247.0
+Louisiana,11/2016,233.0
+Louisiana,12/2016,269.0
+Maine,01/2016,98.0
+Maine,02/2016,83.0
+Maine,03/2016,120.0
+Maine,04/2016,134.0
+Maine,05/2016,120.0
+Maine,06/2016,100.0
+Maine,07/2016,80.0
+Maine,08/2016,74.0
+Maine,09/2016,60.0
+Maine,10/2016,91.0
+Maine,11/2016,105.0
+Maine,12/2016,94.0
+Maryland,01/2016,307.0
+Maryland,02/2016,297.0
+Maryland,03/2016,292.0
+Maryland,04/2016,289.0
+Maryland,05/2016,235.0
+Maryland,06/2016,240.0
+Maryland,07/2016,233.0
+Maryland,08/2016,209.0
+Maryland,09/2016,239.0
+Maryland,10/2016,243.0
+Maryland,11/2016,254.0
+Maryland,12/2016,259.0
+Massachusetts,01/2016,381.0
+Massachusetts,02/2016,366.0
+Massachusetts,03/2016,403.0
+Massachusetts,04/2016,395.0
+Massachusetts,05/2016,342.0
+Massachusetts,06/2016,271.0
+Massachusetts,07/2016,294.0
+Massachusetts,08/2016,300.0
+Massachusetts,09/2016,266.0
+Massachusetts,10/2016,278.0
+Massachusetts,11/2016,277.0
+Massachusetts,12/2016,352.0
+Michigan,01/2016,664.0
+Michigan,02/2016,667.0
+Michigan,03/2016,720.0
+Michigan,04/2016,685.0
+Michigan,05/2016,583.0
+Michigan,06/2016,528.0
+Michigan,07/2016,556.0
+Michigan,08/2016,500.0
+Michigan,09/2016,555.0
+Michigan,10/2016,557.0
+Michigan,11/2016,550.0
+Michigan,12/2016,679.0
+Minnesota,01/2016,273.0
+Minnesota,02/2016,252.0
+Minnesota,03/2016,322.0
+Minnesota,04/2016,283.0
+Minnesota,05/2016,226.0
+Minnesota,06/2016,227.0
+Minnesota,07/2016,202.0
+Minnesota,08/2016,167.0
+Minnesota,09/2016,211.0
+Minnesota,10/2016,240.0
+Minnesota,11/2016,227.0
+Minnesota,12/2016,268.0
+Mississippi,01/2016,307.0
+Mississippi,02/2016,248.0
+Mississippi,03/2016,312.0
+Mississippi,04/2016,221.0
+Mississippi,05/2016,230.0
+Mississippi,06/2016,211.0
+Mississippi,07/2016,216.0
+Mississippi,08/2016,226.0
+Mississippi,09/2016,214.0
+Mississippi,10/2016,227.0
+Mississippi,11/2016,220.0
+Mississippi,12/2016,269.0
+Missouri,01/2016,466.0
+Missouri,02/2016,443.0
+Missouri,03/2016,545.0
+Missouri,04/2016,501.0
+Missouri,05/2016,383.0
+Missouri,06/2016,381.0
+Missouri,07/2016,400.0
+Missouri,08/2016,372.0
+Missouri,09/2016,361.0
+Missouri,10/2016,382.0
+Missouri,11/2016,386.0
+Missouri,12/2016,491.0
+Montana,01/2016,70.0
+Montana,02/2016,92.0
+Montana,03/2016,86.0
+Montana,04/2016,100.0
+Montana,05/2016,78.0
+Montana,06/2016,52.0
+Montana,07/2016,65.0
+Montana,08/2016,64.0
+Montana,09/2016,46.0
+Montana,10/2016,72.0
+Montana,11/2016,63.0
+Montana,12/2016,81.0
+Nebraska,01/2016,121.0
+Nebraska,02/2016,126.0
+Nebraska,03/2016,147.0
+Nebraska,04/2016,158.0
+Nebraska,05/2016,118.0
+Nebraska,06/2016,94.0
+Nebraska,07/2016,98.0
+Nebraska,08/2016,106.0
+Nebraska,09/2016,105.0
+Nebraska,10/2016,113.0
+Nebraska,11/2016,125.0
+Nebraska,12/2016,148.0
+Nevada,01/2016,214.0
+Nevada,02/2016,250.0
+Nevada,03/2016,249.0
+Nevada,04/2016,231.0
+Nevada,05/2016,190.0
+Nevada,06/2016,149.0
+Nevada,07/2016,160.0
+Nevada,08/2016,181.0
+Nevada,09/2016,171.0
+Nevada,10/2016,168.0
+Nevada,11/2016,174.0
+Nevada,12/2016,208.0
+New Hampshire,01/2016,83.0
+New Hampshire,02/2016,62.0
+New Hampshire,03/2016,103.0
+New Hampshire,04/2016,86.0
+New Hampshire,05/2016,67.0
+New Hampshire,06/2016,79.0
+New Hampshire,07/2016,66.0
+New Hampshire,08/2016,70.0
+New Hampshire,09/2016,56.0
+New Hampshire,10/2016,75.0
+New Hampshire,11/2016,55.0
+New Hampshire,12/2016,85.0
+New Jersey,01/2016,345.0
+New Jersey,02/2016,397.0
+New Jersey,03/2016,483.0
+New Jersey,04/2016,388.0
+New Jersey,05/2016,338.0
+New Jersey,06/2016,328.0
+New Jersey,07/2016,302.0
+New Jersey,08/2016,325.0
+New Jersey,09/2016,291.0
+New Jersey,10/2016,350.0
+New Jersey,11/2016,357.0
+New Jersey,12/2016,368.0
+New York,01/2016,1094.0
+New York,02/2016,1094.0
+New York,03/2016,1222.0
+New York,04/2016,1099.0
+New York,05/2016,892.0
+New York,06/2016,865.0
+New York,07/2016,848.0
+New York,08/2016,823.0
+New York,09/2016,747.0
+New York,10/2016,836.0
+New York,11/2016,878.0
+New York,12/2016,975.0
+New Mexico,01/2016,136.0
+New Mexico,02/2016,126.0
+New Mexico,03/2016,181.0
+New Mexico,04/2016,147.0
+New Mexico,05/2016,129.0
+New Mexico,06/2016,90.0
+New Mexico,07/2016,99.0
+New Mexico,08/2016,93.0
+New Mexico,09/2016,118.0
+New Mexico,10/2016,116.0
+New Mexico,11/2016,105.0
+New Mexico,12/2016,144.0
+Oklahoma,01/2016,332.0
+Oklahoma,02/2016,347.0
+Oklahoma,03/2016,330.0
+Oklahoma,04/2016,305.0
+Oklahoma,05/2016,280.0
+Oklahoma,06/2016,237.0
+Oklahoma,07/2016,226.0
+Oklahoma,08/2016,224.0
+Oklahoma,09/2016,255.0
+Oklahoma,10/2016,251.0
+Oklahoma,11/2016,239.0
+Oklahoma,12/2016,314.0
+Ohio,01/2016,826.0
+Ohio,02/2016,868.0
+Ohio,03/2016,968.0
+Ohio,04/2016,873.0
+Ohio,05/2016,784.0
+Ohio,06/2016,674.0
+Ohio,07/2016,687.0
+Ohio,08/2016,645.0
+Ohio,09/2016,675.0
+Ohio,10/2016,679.0
+Ohio,11/2016,692.0
+Ohio,12/2016,831.0
+Oregon,01/2016,216.0
+Oregon,02/2016,241.0
+Oregon,03/2016,270.0
+Oregon,04/2016,225.0
+Oregon,05/2016,225.0
+Oregon,06/2016,177.0
+Oregon,07/2016,165.0
+Oregon,08/2016,177.0
+Oregon,09/2016,152.0
+Oregon,10/2016,197.0
+Oregon,11/2016,216.0
+Oregon,12/2016,271.0
+Pennsylvania,01/2016,875.0
+Pennsylvania,02/2016,794.0
+Pennsylvania,03/2016,960.0
+Pennsylvania,04/2016,862.0
+Pennsylvania,05/2016,723.0
+Pennsylvania,06/2016,658.0
+Pennsylvania,07/2016,619.0
+Pennsylvania,08/2016,642.0
+Pennsylvania,09/2016,582.0
+Pennsylvania,10/2016,707.0
+Pennsylvania,11/2016,725.0
+Pennsylvania,12/2016,867.0
+Tennessee,01/2016,564.0
+Tennessee,02/2016,510.0
+Tennessee,03/2016,615.0
+Tennessee,04/2016,483.0
+Tennessee,05/2016,466.0
+Tennessee,06/2016,447.0
+Tennessee,07/2016,451.0
+Tennessee,08/2016,420.0
+Tennessee,09/2016,430.0
+Tennessee,10/2016,443.0
+Tennessee,11/2016,442.0
+Tennessee,12/2016,580.0
+Texas,01/2016,1197.0
+Texas,02/2016,1198.0
+Texas,03/2016,1228.0
+Texas,04/2016,1149.0
+Texas,05/2016,1085.0
+Texas,06/2016,1072.0
+Texas,07/2016,999.0
+Texas,08/2016,1026.0
+Texas,09/2016,874.0
+Texas,10/2016,982.0
+Texas,11/2016,966.0
+Texas,12/2016,1191.0
+Utah,01/2016,106.0
+Utah,02/2016,131.0
+Utah,03/2016,143.0
+Utah,04/2016,128.0
+Utah,05/2016,123.0
+Utah,06/2016,83.0
+Utah,07/2016,83.0
+Utah,08/2016,82.0
+Utah,09/2016,82.0
+Utah,10/2016,78.0
+Utah,11/2016,97.0
+Utah,12/2016,119.0
+Vermont,01/2016,39.0
+Vermont,02/2016,44.0
+Vermont,03/2016,53.0
+Vermont,04/2016,40.0
+Vermont,05/2016,34.0
+Vermont,06/2016,28.0
+Vermont,07/2016,30.0
+Vermont,08/2016,27.0
+Vermont,09/2016,28.0
+Vermont,10/2016,23.0
+Vermont,11/2016,26.0
+Vermont,12/2016,42.0
+Virginia,01/2016,431.0
+Virginia,02/2016,384.0
+Virginia,03/2016,429.0
+Virginia,04/2016,383.0
+Virginia,05/2016,417.0
+Virginia,06/2016,359.0
+Virginia,07/2016,341.0
+Virginia,08/2016,309.0
+Virginia,09/2016,278.0
+Virginia,10/2016,315.0
+Virginia,11/2016,357.0
+Virginia,12/2016,407.0
+West Virginia,01/2016,183.0
+West Virginia,02/2016,162.0
+West Virginia,03/2016,188.0
+West Virginia,04/2016,178.0
+West Virginia,05/2016,174.0
+West Virginia,06/2016,160.0
+West Virginia,07/2016,149.0
+West Virginia,08/2016,159.0
+West Virginia,09/2016,160.0
+West Virginia,10/2016,160.0
+West Virginia,11/2016,156.0
+West Virginia,12/2016,193.0
+Washington,01/2016,373.0
+Washington,02/2016,357.0
+Washington,03/2016,382.0
+Washington,04/2016,352.0
+Washington,05/2016,307.0
+Washington,06/2016,259.0
+Washington,07/2016,293.0
+Washington,08/2016,272.0
+Washington,09/2016,259.0
+Washington,10/2016,311.0
+Washington,11/2016,273.0
+Washington,12/2016,413.0
+Wisconsin,01/2016,334.0
+Wisconsin,02/2016,323.0
+Wisconsin,03/2016,441.0
+Wisconsin,04/2016,359.0
+Wisconsin,05/2016,271.0
+Wisconsin,06/2016,267.0
+Wisconsin,07/2016,266.0
+Wisconsin,08/2016,238.0
+Wisconsin,09/2016,259.0
+Wisconsin,10/2016,285.0
+Wisconsin,11/2016,295.0
+Wisconsin,12/2016,336.0
+Wyoming,01/2016,32.0
+Wyoming,02/2016,41.0
+Wyoming,03/2016,40.0
+Wyoming,04/2016,40.0
+Wyoming,05/2016,37.0
+Wyoming,06/2016,36.0
+Wyoming,07/2016,33.0
+Wyoming,08/2016,28.0
+Wyoming,09/2016,22.0
+Wyoming,10/2016,33.0
+Wyoming,11/2016,36.0
+Wyoming,12/2016,48.0

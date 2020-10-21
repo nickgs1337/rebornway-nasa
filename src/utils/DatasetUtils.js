@@ -14,6 +14,7 @@ const generateDataset = (scale, amount, variability) => {
         }
         amount--;
     }
+    //dataset = [6.7, 7.2, 6.8, 7.1, 6.9, 7.2];
     return dataset;
 };
 

@@ -14,12 +14,16 @@ import CovidArticle from "./Components/Articles/Covid/CovidArticle";
 import ForestFiresArticle from "./Components/Articles/ForestFires/ForestFiresArticle";
 import WaterPollutionArticle from "./Components/Articles/WaterPollution/WaterPollutionArticle";
 import PollutantsArticle from "./Components/Articles/Pollutants/PollutantsArticle";
-import SignUp from "./Components/SignUp/SignUp";
+import GreenHouseArticle from "./Components/Articles/GreenHouse/GreenHouse.js";
 import NavBar from "./Components/NavBar/NavBar";
 import OurRecommendations from "./Components/OurRecommendations/OurRecommendations";
+import Methodology from "./Components/Methodology/Methodology";
 import WhatsAppBot from "./Components/WhatsAppBot/WhatsAppBot";
 import Footer from "./footer.png"
 import OurTeam from "./Components/OurTeam/OurTeam";
+import Contact from "./Components/Contact/Contact";
+import About from "./Components/About/About";
+import BecomeWare from "./Components/BecomeAware/becomeaware";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -53,20 +57,32 @@ function App() {
                       <Route path="/covid">
                           <CovidArticle />
                       </Route>
-                      <Route path="/queimada">
+                      <Route path="/forestfirer">
                           <ForestFiresArticle />
                       </Route>
                       <Route path="/coral">
                           <WaterPollutionArticle />
                       </Route>
-                      <Route path="/poluentes">
+                      <Route path="/pollutants">
                           <PollutantsArticle />
                       </Route>
-                      <Route path="/recomendacoes">
+                      <Route path="/greenhouse">
+                          <GreenHouseArticle/>
+                      </Route>
+                      <Route path="/recommendations">
                           <OurRecommendations />
+                      </Route>
+                      <Route path="/methodology">
+                          <Methodology/>
                       </Route>
                       <Route path="/team">
                           <OurTeam/>
+                      </Route>
+                      <Route path="/aboutus">
+                          <About/>
+                      </Route>
+                      <Route path="/becomeaware">
+                          <BecomeWare/>
                       </Route>
                   </Switch>
 
@@ -74,6 +90,7 @@ function App() {
           </div>
           <ChatBot />
           <WhatsAppBot />
+          <Contact />
           <img
               style={{
                   width: '100%',

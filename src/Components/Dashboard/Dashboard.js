@@ -6,17 +6,24 @@ import MainHistoryGraph from "../MainHistoryGraph/MainHistoryGraph";
 import WorldMap from "../WorldMap/WorldMap";
 import ProfileCard from "../ProfileCard/ProfileCard";
 import PollutionMap from "../WorldMap/PollutionMap";
+import FirstsHints from "../FirstHints/FirstsHits";
+import MathModel from "../MathModel/MathModel";
+import ForecastDashboard from "../ForecastDashboard/ForecastDashboard";
 
 const Dashboard = () => {
-    return <Grid container spacing={3}>
+
+    return localStorage.getItem("name") ? (<Grid container spacing={3}>
         <Grid item xs={4}>
             <Grid container spacing={3}>
                 <Grid item xs={12}>
-                    <ProfileCard />
+                    <ProfileCard/>
                 </Grid>
                 <Grid item xs={12}>
                     <SubGraph/>
                 </Grid>
+                {/*<Grid item xs={12}>
+                    <FirstsHints/>
+                </Grid>*/}
             </Grid>
         </Grid>
         <Grid item xs={8}>
@@ -30,10 +37,15 @@ const Dashboard = () => {
                 <Grid item xs={12}>
                     <PollutionMap />
                 </Grid>
+                {/*<Grid item xs={12}>
+                    <ForecastDashboard />
+                </Grid>*/}
+                <Grid item xs={12}>
+                    <MathModel />
+                </Grid>
             </Grid>
         </Grid>
-
-    </Grid>
+    </Grid>) : (<Grid container spacing={3}><ProfileCard/></Grid>)
 };
 
 export default Dashboard;

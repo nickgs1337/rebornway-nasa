@@ -1,0 +1,601 @@
+State,Month,Deaths
+Alabama,01/2015,482.0
+Alabama,02/2015,447.0
+Alabama,03/2015,448.0
+Alabama,04/2015,397.0
+Alabama,05/2015,358.0
+Alabama,06/2015,305.0
+Alabama,07/2015,303.0
+Alabama,08/2015,312.0
+Alabama,09/2015,273.0
+Alabama,10/2015,312.0
+Alabama,11/2015,345.0
+Alabama,12/2015,394.0
+Alaska,01/2015,19.0
+Alaska,02/2015,18.0
+Alaska,03/2015,22.0
+Alaska,04/2015,14.0
+Alaska,05/2015,30.0
+Alaska,06/2015,28.0
+Alaska,07/2015,16.0
+Alaska,08/2015,28.0
+Alaska,09/2015,18.0
+Alaska,10/2015,16.0
+Alaska,11/2015,11.0
+Alaska,12/2015,25.0
+Arkansas,01/2015,338.0
+Arkansas,02/2015,302.0
+Arkansas,03/2015,275.0
+Arkansas,04/2015,256.0
+Arkansas,05/2015,256.0
+Arkansas,06/2015,229.0
+Arkansas,07/2015,219.0
+Arkansas,08/2015,183.0
+Arkansas,09/2015,220.0
+Arkansas,10/2015,245.0
+Arkansas,11/2015,206.0
+Arkansas,12/2015,241.0
+Arizona,01/2015,492.0
+Arizona,02/2015,405.0
+Arizona,03/2015,441.0
+Arizona,04/2015,411.0
+Arizona,05/2015,410.0
+Arizona,06/2015,348.0
+Arizona,07/2015,295.0
+Arizona,08/2015,265.0
+Arizona,09/2015,298.0
+Arizona,10/2015,327.0
+Arizona,11/2015,331.0
+Arizona,12/2015,433.0
+California,01/2015,2459.0
+California,02/2015,2102.0
+California,03/2015,1933.0
+California,04/2015,1723.0
+California,05/2015,1586.0
+California,06/2015,1490.0
+California,07/2015,1328.0
+California,08/2015,1277.0
+California,09/2015,1308.0
+California,10/2015,1369.0
+California,11/2015,1432.0
+California,12/2015,1802.0
+Kansas,01/2015,300.0
+Kansas,02/2015,254.0
+Kansas,03/2015,234.0
+Kansas,04/2015,216.0
+Kansas,05/2015,175.0
+Kansas,06/2015,178.0
+Kansas,07/2015,164.0
+Kansas,08/2015,171.0
+Kansas,09/2015,157.0
+Kansas,10/2015,178.0
+Kansas,11/2015,165.0
+Kansas,12/2015,194.0
+North Carolina,01/2015,1021.0
+North Carolina,02/2015,700.0
+North Carolina,03/2015,737.0
+North Carolina,04/2015,609.0
+North Carolina,05/2015,545.0
+North Carolina,06/2015,468.0
+North Carolina,07/2015,565.0
+North Carolina,08/2015,473.0
+North Carolina,09/2015,514.0
+North Carolina,10/2015,522.0
+North Carolina,11/2015,546.0
+North Carolina,12/2015,636.0
+South Carolina,01/2015,479.0
+South Carolina,02/2015,361.0
+South Carolina,03/2015,355.0
+South Carolina,04/2015,322.0
+South Carolina,05/2015,334.0
+South Carolina,06/2015,258.0
+South Carolina,07/2015,248.0
+South Carolina,08/2015,247.0
+South Carolina,09/2015,240.0
+South Carolina,10/2015,306.0
+South Carolina,11/2015,273.0
+South Carolina,12/2015,333.0
+Colorado,01/2015,412.0
+Colorado,02/2015,276.0
+Colorado,03/2015,294.0
+Colorado,04/2015,310.0
+Colorado,05/2015,274.0
+Colorado,06/2015,253.0
+Colorado,07/2015,198.0
+Colorado,08/2015,235.0
+Colorado,09/2015,220.0
+Colorado,10/2015,229.0
+Colorado,11/2015,256.0
+Colorado,12/2015,279.0
+Connecticut,01/2015,227.0
+Connecticut,02/2015,222.0
+Connecticut,03/2015,232.0
+Connecticut,04/2015,200.0
+Connecticut,05/2015,155.0
+Connecticut,06/2015,152.0
+Connecticut,07/2015,166.0
+Connecticut,08/2015,128.0
+Connecticut,09/2015,131.0
+Connecticut,10/2015,131.0
+Connecticut,11/2015,152.0
+Connecticut,12/2015,140.0
+North Dakota,01/2015,73.0
+North Dakota,02/2015,46.0
+North Dakota,03/2015,47.0
+North Dakota,04/2015,61.0
+North Dakota,05/2015,35.0
+North Dakota,06/2015,38.0
+North Dakota,07/2015,44.0
+North Dakota,08/2015,30.0
+North Dakota,09/2015,30.0
+North Dakota,10/2015,40.0
+North Dakota,11/2015,38.0
+North Dakota,12/2015,41.0
+South Dakota,01/2015,87.0
+South Dakota,02/2015,76.0
+South Dakota,03/2015,91.0
+South Dakota,04/2015,75.0
+South Dakota,05/2015,64.0
+South Dakota,06/2015,51.0
+South Dakota,07/2015,39.0
+South Dakota,08/2015,49.0
+South Dakota,09/2015,48.0
+South Dakota,10/2015,35.0
+South Dakota,11/2015,47.0
+South Dakota,12/2015,53.0
+Delaware,01/2015,97.0
+Delaware,02/2015,65.0
+Delaware,03/2015,61.0
+Delaware,04/2015,55.0
+Delaware,05/2015,55.0
+Delaware,06/2015,55.0
+Delaware,07/2015,45.0
+Delaware,08/2015,45.0
+Delaware,09/2015,37.0
+Delaware,10/2015,63.0
+Delaware,11/2015,43.0
+Delaware,12/2015,78.0
+Florida,01/2015,1596.0
+Florida,02/2015,1358.0
+Florida,03/2015,1338.0
+Florida,04/2015,1321.0
+Florida,05/2015,1197.0
+Florida,06/2015,1090.0
+Florida,07/2015,1067.0
+Florida,08/2015,1028.0
+Florida,09/2015,1005.0
+Florida,10/2015,1094.0
+Florida,11/2015,1088.0
+Florida,12/2015,1199.0
+Georgia,01/2015,709.0
+Georgia,02/2015,584.0
+Georgia,03/2015,583.0
+Georgia,04/2015,525.0
+Georgia,05/2015,465.0
+Georgia,06/2015,430.0
+Georgia,07/2015,441.0
+Georgia,08/2015,416.0
+Georgia,09/2015,420.0
+Georgia,10/2015,480.0
+Georgia,11/2015,470.0
+Georgia,12/2015,551.0
+Hawaii,01/2015,89.0
+Hawaii,02/2015,85.0
+Hawaii,03/2015,72.0
+Hawaii,04/2015,66.0
+Hawaii,05/2015,81.0
+Hawaii,06/2015,71.0
+Hawaii,07/2015,69.0
+Hawaii,08/2015,63.0
+Hawaii,09/2015,71.0
+Hawaii,10/2015,74.0
+Hawaii,11/2015,63.0
+Hawaii,12/2015,85.0
+Idaho,01/2015,125.0
+Idaho,02/2015,115.0
+Idaho,03/2015,97.0
+Idaho,04/2015,83.0
+Idaho,05/2015,93.0
+Idaho,06/2015,65.0
+Idaho,07/2015,78.0
+Idaho,08/2015,85.0
+Idaho,09/2015,72.0
+Idaho,10/2015,77.0
+Idaho,11/2015,86.0
+Idaho,12/2015,85.0
+Rhode Island,01/2015,103.0
+Rhode Island,02/2015,77.0
+Rhode Island,03/2015,86.0
+Rhode Island,04/2015,81.0
+Rhode Island,05/2015,66.0
+Rhode Island,06/2015,64.0
+Rhode Island,07/2015,46.0
+Rhode Island,08/2015,41.0
+Rhode Island,09/2015,43.0
+Rhode Island,10/2015,51.0
+Rhode Island,11/2015,43.0
+Rhode Island,12/2015,55.0
+Illinois,01/2015,956.0
+Illinois,02/2015,686.0
+Illinois,03/2015,753.0
+Illinois,04/2015,737.0
+Illinois,05/2015,660.0
+Illinois,06/2015,582.0
+Illinois,07/2015,551.0
+Illinois,08/2015,578.0
+Illinois,09/2015,507.0
+Illinois,10/2015,600.0
+Illinois,11/2015,625.0
+Illinois,12/2015,652.0
+Indiana,01/2015,707.0
+Indiana,02/2015,472.0
+Indiana,03/2015,561.0
+Indiana,04/2015,469.0
+Indiana,05/2015,439.0
+Indiana,06/2015,348.0
+Indiana,07/2015,354.0
+Indiana,08/2015,367.0
+Indiana,09/2015,371.0
+Indiana,10/2015,371.0
+Indiana,11/2015,359.0
+Indiana,12/2015,438.0
+Iowa,01/2015,403.0
+Iowa,02/2015,222.0
+Iowa,03/2015,255.0
+Iowa,04/2015,226.0
+Iowa,05/2015,216.0
+Iowa,06/2015,197.0
+Iowa,07/2015,188.0
+Iowa,08/2015,195.0
+Iowa,09/2015,176.0
+Iowa,10/2015,183.0
+Iowa,11/2015,199.0
+Iowa,12/2015,169.0
+Kentucky,01/2015,569.0
+Kentucky,02/2015,394.0
+Kentucky,03/2015,392.0
+Kentucky,04/2015,358.0
+Kentucky,05/2015,340.0
+Kentucky,06/2015,344.0
+Kentucky,07/2015,320.0
+Kentucky,08/2015,303.0
+Kentucky,09/2015,266.0
+Kentucky,10/2015,337.0
+Kentucky,11/2015,298.0
+Kentucky,12/2015,377.0
+Louisiana,01/2015,340.0
+Louisiana,02/2015,288.0
+Louisiana,03/2015,273.0
+Louisiana,04/2015,227.0
+Louisiana,05/2015,243.0
+Louisiana,06/2015,211.0
+Louisiana,07/2015,222.0
+Louisiana,08/2015,213.0
+Louisiana,09/2015,218.0
+Louisiana,10/2015,200.0
+Louisiana,11/2015,227.0
+Louisiana,12/2015,269.0
+Maine,01/2015,186.0
+Maine,02/2015,148.0
+Maine,03/2015,156.0
+Maine,04/2015,141.0
+Maine,05/2015,111.0
+Maine,06/2015,91.0
+Maine,07/2015,73.0
+Maine,08/2015,95.0
+Maine,09/2015,73.0
+Maine,10/2015,99.0
+Maine,11/2015,88.0
+Maine,12/2015,97.0
+Maryland,01/2015,496.0
+Maryland,02/2015,298.0
+Maryland,03/2015,275.0
+Maryland,04/2015,245.0
+Maryland,05/2015,242.0
+Maryland,06/2015,238.0
+Maryland,07/2015,229.0
+Maryland,08/2015,234.0
+Maryland,09/2015,208.0
+Maryland,10/2015,237.0
+Maryland,11/2015,236.0
+Maryland,12/2015,278.0
+Massachusetts,01/2015,551.0
+Massachusetts,02/2015,520.0
+Massachusetts,03/2015,461.0
+Massachusetts,04/2015,441.0
+Massachusetts,05/2015,356.0
+Massachusetts,06/2015,278.0
+Massachusetts,07/2015,291.0
+Massachusetts,08/2015,257.0
+Massachusetts,09/2015,250.0
+Massachusetts,10/2015,306.0
+Massachusetts,11/2015,287.0
+Massachusetts,12/2015,298.0
+Michigan,01/2015,991.0
+Michigan,02/2015,655.0
+Michigan,03/2015,800.0
+Michigan,04/2015,751.0
+Michigan,05/2015,659.0
+Michigan,06/2015,583.0
+Michigan,07/2015,557.0
+Michigan,08/2015,530.0
+Michigan,09/2015,500.0
+Michigan,10/2015,562.0
+Michigan,11/2015,545.0
+Michigan,12/2015,609.0
+Minnesota,01/2015,422.0
+Minnesota,02/2015,285.0
+Minnesota,03/2015,285.0
+Minnesota,04/2015,310.0
+Minnesota,05/2015,237.0
+Minnesota,06/2015,223.0
+Minnesota,07/2015,219.0
+Minnesota,08/2015,204.0
+Minnesota,09/2015,209.0
+Minnesota,10/2015,235.0
+Minnesota,11/2015,227.0
+Minnesota,12/2015,233.0
+Mississippi,01/2015,298.0
+Mississippi,02/2015,251.0
+Mississippi,03/2015,286.0
+Mississippi,04/2015,250.0
+Mississippi,05/2015,240.0
+Mississippi,06/2015,209.0
+Mississippi,07/2015,190.0
+Mississippi,08/2015,194.0
+Mississippi,09/2015,168.0
+Mississippi,10/2015,199.0
+Mississippi,11/2015,197.0
+Mississippi,12/2015,233.0
+Missouri,01/2015,614.0
+Missouri,02/2015,483.0
+Missouri,03/2015,526.0
+Missouri,04/2015,475.0
+Missouri,05/2015,423.0
+Missouri,06/2015,440.0
+Missouri,07/2015,398.0
+Missouri,08/2015,343.0
+Missouri,09/2015,362.0
+Missouri,10/2015,389.0
+Missouri,11/2015,370.0
+Missouri,12/2015,449.0
+Montana,01/2015,92.0
+Montana,02/2015,89.0
+Montana,03/2015,96.0
+Montana,04/2015,79.0
+Montana,05/2015,72.0
+Montana,06/2015,62.0
+Montana,07/2015,54.0
+Montana,08/2015,56.0
+Montana,09/2015,55.0
+Montana,10/2015,77.0
+Montana,11/2015,55.0
+Montana,12/2015,75.0
+Nebraska,01/2015,202.0
+Nebraska,02/2015,179.0
+Nebraska,03/2015,152.0
+Nebraska,04/2015,121.0
+Nebraska,05/2015,127.0
+Nebraska,06/2015,135.0
+Nebraska,07/2015,112.0
+Nebraska,08/2015,100.0
+Nebraska,09/2015,87.0
+Nebraska,10/2015,128.0
+Nebraska,11/2015,99.0
+Nebraska,12/2015,129.0
+Nevada,01/2015,261.0
+Nevada,02/2015,220.0
+Nevada,03/2015,224.0
+Nevada,04/2015,171.0
+Nevada,05/2015,172.0
+Nevada,06/2015,161.0
+Nevada,07/2015,166.0
+Nevada,08/2015,188.0
+Nevada,09/2015,144.0
+Nevada,10/2015,164.0
+Nevada,11/2015,178.0
+Nevada,12/2015,198.0
+New Hampshire,01/2015,122.0
+New Hampshire,02/2015,106.0
+New Hampshire,03/2015,94.0
+New Hampshire,04/2015,88.0
+New Hampshire,05/2015,92.0
+New Hampshire,06/2015,54.0
+New Hampshire,07/2015,77.0
+New Hampshire,08/2015,51.0
+New Hampshire,09/2015,69.0
+New Hampshire,10/2015,78.0
+New Hampshire,11/2015,65.0
+New Hampshire,12/2015,84.0
+New Jersey,01/2015,664.0
+New Jersey,02/2015,516.0
+New Jersey,03/2015,443.0
+New Jersey,04/2015,417.0
+New Jersey,05/2015,400.0
+New Jersey,06/2015,327.0
+New Jersey,07/2015,300.0
+New Jersey,08/2015,297.0
+New Jersey,09/2015,297.0
+New Jersey,10/2015,320.0
+New Jersey,11/2015,291.0
+New Jersey,12/2015,332.0
+New York,01/2015,1507.0
+New York,02/2015,1254.0
+New York,03/2015,1212.0
+New York,04/2015,1067.0
+New York,05/2015,1017.0
+New York,06/2015,906.0
+New York,07/2015,818.0
+New York,08/2015,765.0
+New York,09/2015,786.0
+New York,10/2015,867.0
+New York,11/2015,865.0
+New York,12/2015,926.0
+New Mexico,01/2015,183.0
+New Mexico,02/2015,134.0
+New Mexico,03/2015,145.0
+New Mexico,04/2015,127.0
+New Mexico,05/2015,110.0
+New Mexico,06/2015,109.0
+New Mexico,07/2015,95.0
+New Mexico,08/2015,105.0
+New Mexico,09/2015,103.0
+New Mexico,10/2015,103.0
+New Mexico,11/2015,106.0
+New Mexico,12/2015,111.0
+Oklahoma,01/2015,442.0
+Oklahoma,02/2015,356.0
+Oklahoma,03/2015,349.0
+Oklahoma,04/2015,325.0
+Oklahoma,05/2015,295.0
+Oklahoma,06/2015,258.0
+Oklahoma,07/2015,259.0
+Oklahoma,08/2015,255.0
+Oklahoma,09/2015,217.0
+Oklahoma,10/2015,288.0
+Oklahoma,11/2015,298.0
+Oklahoma,12/2015,299.0
+Ohio,01/2015,1244.0
+Ohio,02/2015,877.0
+Ohio,03/2015,865.0
+Ohio,04/2015,900.0
+Ohio,05/2015,810.0
+Ohio,06/2015,688.0
+Ohio,07/2015,714.0
+Ohio,08/2015,648.0
+Ohio,09/2015,672.0
+Ohio,10/2015,724.0
+Ohio,11/2015,709.0
+Ohio,12/2015,805.0
+Oregon,01/2015,325.0
+Oregon,02/2015,256.0
+Oregon,03/2015,257.0
+Oregon,04/2015,211.0
+Oregon,05/2015,209.0
+Oregon,06/2015,215.0
+Oregon,07/2015,188.0
+Oregon,08/2015,155.0
+Oregon,09/2015,164.0
+Oregon,10/2015,187.0
+Oregon,11/2015,211.0
+Oregon,12/2015,194.0
+Pennsylvania,01/2015,1357.0
+Pennsylvania,02/2015,966.0
+Pennsylvania,03/2015,986.0
+Pennsylvania,04/2015,831.0
+Pennsylvania,05/2015,721.0
+Pennsylvania,06/2015,676.0
+Pennsylvania,07/2015,680.0
+Pennsylvania,08/2015,642.0
+Pennsylvania,09/2015,621.0
+Pennsylvania,10/2015,704.0
+Pennsylvania,11/2015,660.0
+Pennsylvania,12/2015,719.0
+Tennessee,01/2015,735.0
+Tennessee,02/2015,595.0
+Tennessee,03/2015,543.0
+Tennessee,04/2015,499.0
+Tennessee,05/2015,494.0
+Tennessee,06/2015,457.0
+Tennessee,07/2015,426.0
+Tennessee,08/2015,380.0
+Tennessee,09/2015,434.0
+Tennessee,10/2015,416.0
+Tennessee,11/2015,459.0
+Tennessee,12/2015,524.0
+Texas,01/2015,1682.0
+Texas,02/2015,1216.0
+Texas,03/2015,1378.0
+Texas,04/2015,1147.0
+Texas,05/2015,1162.0
+Texas,06/2015,1042.0
+Texas,07/2015,921.0
+Texas,08/2015,874.0
+Texas,09/2015,896.0
+Texas,10/2015,1005.0
+Texas,11/2015,980.0
+Texas,12/2015,1142.0
+Utah,01/2015,141.0
+Utah,02/2015,118.0
+Utah,03/2015,120.0
+Utah,04/2015,106.0
+Utah,05/2015,107.0
+Utah,06/2015,91.0
+Utah,07/2015,86.0
+Utah,08/2015,79.0
+Utah,09/2015,67.0
+Utah,10/2015,85.0
+Utah,11/2015,82.0
+Utah,12/2015,101.0
+Vermont,01/2015,61.0
+Vermont,02/2015,56.0
+Vermont,03/2015,48.0
+Vermont,04/2015,40.0
+Vermont,05/2015,40.0
+Vermont,06/2015,29.0
+Vermont,07/2015,34.0
+Vermont,08/2015,20.0
+Vermont,09/2015,22.0
+Vermont,10/2015,29.0
+Vermont,11/2015,33.0
+Vermont,12/2015,30.0
+Virginia,01/2015,667.0
+Virginia,02/2015,471.0
+Virginia,03/2015,456.0
+Virginia,04/2015,401.0
+Virginia,05/2015,393.0
+Virginia,06/2015,342.0
+Virginia,07/2015,325.0
+Virginia,08/2015,339.0
+Virginia,09/2015,281.0
+Virginia,10/2015,347.0
+Virginia,11/2015,398.0
+Virginia,12/2015,366.0
+West Virginia,01/2015,268.0
+West Virginia,02/2015,174.0
+West Virginia,03/2015,205.0
+West Virginia,04/2015,180.0
+West Virginia,05/2015,182.0
+West Virginia,06/2015,157.0
+West Virginia,07/2015,182.0
+West Virginia,08/2015,145.0
+West Virginia,09/2015,156.0
+West Virginia,10/2015,156.0
+West Virginia,11/2015,167.0
+West Virginia,12/2015,182.0
+Washington,01/2015,515.0
+Washington,02/2015,386.0
+Washington,03/2015,387.0
+Washington,04/2015,341.0
+Washington,05/2015,365.0
+Washington,06/2015,293.0
+Washington,07/2015,278.0
+Washington,08/2015,239.0
+Washington,09/2015,280.0
+Washington,10/2015,288.0
+Washington,11/2015,289.0
+Washington,12/2015,344.0
+Wisconsin,01/2015,569.0
+Wisconsin,02/2015,373.0
+Wisconsin,03/2015,386.0
+Wisconsin,04/2015,394.0
+Wisconsin,05/2015,322.0
+Wisconsin,06/2015,237.0
+Wisconsin,07/2015,253.0
+Wisconsin,08/2015,233.0
+Wisconsin,09/2015,295.0
+Wisconsin,10/2015,276.0
+Wisconsin,11/2015,257.0
+Wisconsin,12/2015,303.0
+Wyoming,01/2015,67.0
+Wyoming,02/2015,48.0
+Wyoming,03/2015,45.0
+Wyoming,04/2015,36.0
+Wyoming,05/2015,26.0
+Wyoming,06/2015,38.0
+Wyoming,07/2015,42.0
+Wyoming,08/2015,30.0
+Wyoming,09/2015,30.0
+Wyoming,10/2015,36.0
+Wyoming,11/2015,30.0
+Wyoming,12/2015,39.0

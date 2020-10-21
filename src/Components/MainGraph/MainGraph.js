@@ -22,7 +22,7 @@ const data = {
             borderWidth: 0,
             // hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             // hoverBorderColor: 'rgba(255,99,132,1)',
-            data: generateDataset(100, 7, 40)
+            data: [17, 18, 17, 17, 19, 18, 17]
         }
     ]
 };
@@ -54,7 +54,7 @@ const MainGraph = () => {
                     textAlign: 'center'
                 }}
                 variant="h5" component="h2">
-                Evolution of General Pollution
+                Evolution of General Pollution (%)
             </Typography>
             <div
                 style={{

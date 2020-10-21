@@ -25,7 +25,7 @@ const WhatsAppBot = () => {
                     backgroundColor: '#01a000'
                 }}
                 color="primary" aria-label="add" onClick={() => {
-                window.location = 'https://api.whatsapp.com/send?phone=5519992225879&text=Ol%C3%A1%20Annie!%20Estou%20interessado%20sobre%20o%20projeto%20RebornWay%2C%20poderia%20me%20falar%20mais%3F'
+                window.location = 'https://api.whatsapp.com/send?phone=5519992225879&text=Hello%2C+Annie%21+I%27m+interested+in+the+RebornWay+project%2C+could+you+tell+me+more+about+it%3F'
             }}>
                 <WhatsAppIcon />
             </Fab>

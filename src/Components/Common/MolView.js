@@ -13,8 +13,8 @@ const MolView = ({ cid, height, width }) => {
                     fontSize: '0.75em',
                 }}
             >
-                Use o scroll do mouse para aproximar do modelo<br/>
-                Clique e arraste para mudar o angulo
+                Use mouse scrollto zoom in on the model<br/>
+                Click and drag to change the angle
             </div>
             <iframe style={{
                 width,

@@ -14,6 +14,7 @@ const Recommendation = ({ name, description, image }) => {
                 <div
                     style={{
                         width: '50%',
+                        height: '200px',
                         paddingRight: '16px',
                     }}
                 >
@@ -36,7 +37,8 @@ const Recommendation = ({ name, description, image }) => {
                 </div>
                 <img
                     style={{
-                        width: '50%'
+                        width: '50%',
+                        height: '25%'
                     }}
                     src={image} alt="" />
             </CardContent>

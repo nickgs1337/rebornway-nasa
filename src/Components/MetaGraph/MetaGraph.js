@@ -4,6 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import {Doughnut} from "react-chartjs-2";
+import { Pie3D } from 'react-pie3d'
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogContent from "@material-ui/core/DialogContent";
@@ -18,7 +19,7 @@ const useStyles = makeStyles({
     }
 });
 
-const MetaGraph = ({ title, small, percent, description }) => {
+const MetaGraph = ({ title, small, percent, description, subdescription }) => {
 
     const data = {
         labels: [
@@ -37,6 +38,27 @@ const MetaGraph = ({ title, small, percent, description }) => {
             ]
         }]
     };
+
+    const config = {
+        angle: 45,
+        height: 15,
+        ir: 0.5,
+        moveDistance: 0.1,
+        onClick: null,
+        showTooltips: true,
+        size: 0.65,
+        stroke: '#fff',
+        strokeWidth: 1,
+        tooltipShowName: true,
+        tooltipShowPercentage: true,
+        tooltipShowValue: 0
+    };
+
+
+    const data1 = [
+        { value: (100 - percent), label: '', color: '#E9EAF4' },
+        { value: percent, label: title, color: (percent > 70 ? '#e74c3c' : percent > 50 ? '#f1c40f': '#2ecc71') },
+    ];
 
     const options = {
         legend: {
@@ -61,12 +83,27 @@ const MetaGraph = ({ title, small, percent, description }) => {
             >
                 <Typography
                     style={{
-                        textAlign: 'center'
+                        textAlign: 'center',
+                        fontSize: '16px'
                     }}
                     variant={small ? "h6" : "h5"} component="h2">
-                    {title}
+                    {title} ({percent}{'%'})
                 </Typography>
-                <Doughnut data={data} options={options}/>
+
+                <div style={{
+                    textAlign: 'center',
+                    fontSize: '12px'
+                }}>
+                    {subdescription}
+                </div>
+
+                <div style={{
+                    textAlign: 'center',
+                    marginTop: '-40px'
+                }}>
+                    <Pie3D config={config} data={data1}/>
+                </div>
+                {/*<Doughnut data={data} options={options}/>*/}
             </CardContent>
         </Card>
         <Dialog onClose={() => {setOpen(false)}} aria-labelledby="customized-dialog-title" open={open}>

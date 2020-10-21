@@ -18,9 +18,22 @@ const OurTeam = () => {
 
   const classes = useStyles();
   return <Grid container spacing={3}>
-        <Grid item xs={12} >
+        <center>
+        <Grid item xs={9} >
             <Card className={classes.root}>
               <CardContent >
+
+                  <div style={{
+                      justifyContent: 'justify',
+                      justifyText: 'justify',
+                      textAlign: 'justify',
+                      fontSize: '15px'
+                  }}>
+                  We are from Brazil and our team is considerably diverse. Ana Julia is a sophomore in high school.
+                  Caio is a student of Electronic Engineering and Telecommunications. Guilherme studies Aeronautical Engineering.
+                  Karen and Nicolas are medical students. Finally, Nicollas is trained in Systems Analysis and Development.
+                  </div>
+                  <br />
                   <div style={{
                       height: '100%',
                       width: '100%',
@@ -28,15 +41,28 @@ const OurTeam = () => {
                       justifyContent: 'space-around'
                   }}>
                       <img
-                          width={"1280px"}
-                          height={"720px"}
+                          width={"100%"}
                           src={TeamPhoto}
                           alt=""/>
+                  </div>
+
+                  <br/>
+
+                  <div style={{
+                      height: '100%',
+                      width: '100%',
+                      display: 'flex',
+                      justifyContent: 'space-around',
+                      fontSize: '16px'
+                  }}>
                   </div>
               </CardContent>
           </Card>
       </Grid>
-      <Grid item xs={12} >
+
+            <br/>
+
+      <Grid item xs={9} >
           <Card className={classes.root}>
               <CardContent >
                   <div style={{
@@ -47,14 +73,15 @@ const OurTeam = () => {
                   }}>
                       <ReactPlayer
                           controls={true}
-                          width={"1280px"}
-                          height={"720px"}
+                          width={"100%"}
+                          height={"100%"}
                           pip={false}
                           url={Trailer} />
                   </div>
               </CardContent>
           </Card>
       </Grid>
+            </center>
     </Grid>
 };
 

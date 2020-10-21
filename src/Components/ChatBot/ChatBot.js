@@ -88,7 +88,7 @@ const ChatBot = () => {
     const [fetchResponse, setFetchResponse] = React.useState(null);
     const [messageHistory, setMessageHistory] = React.useState([
         {
-            message: 'Olá, meu nome é Annie! Em que posso lhe ajudar?',
+            message: 'Hello, my name is Annie! What can I do for you?',
             sender: 'bot'
         },
     ]);
@@ -110,7 +110,7 @@ const ChatBot = () => {
             }
             if(!found) {
                 addMessageToChat({
-                    message: 'Ops! Não entendi o que você falou. Poderia reformular?',
+                    message: 'Ops! I don\'t understand what you said. Could you rephrase it? or come back later?',
                     sender: 'bot'
                 })
             }
@@ -135,11 +135,11 @@ const ChatBot = () => {
             message: inputMessage,
             sender: 'user'
         });
-        fetch("https://landwars.azurewebsites.net/qnamaker/knowledgebases/de93dc8f-187e-490d-abda-b0f4772b7190/generateAnswer", {
+        fetch("https://rebornway.azurewebsites.net/qnamaker/knowledgebases/baa28235-4d2d-4fb2-b112-4cbad23250c6/generateAnswer", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'EndpointKey 2b759b56-3a78-4e4f-8f0c-6eb6b76e3642'
+                'Authorization': 'EndpointKey aa2e915f-9680-4daf-ab20-7ce09f24c932'
             },
             body: JSON.stringify({
                 question: inputMessage

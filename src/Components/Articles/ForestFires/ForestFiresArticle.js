@@ -4,8 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
 import {makeStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Queimada1 from './queimada-1.jpg'
-import Queimada2 from './queimada-2.jpeg'
+import forest_firer from './forest_firer.png'
+import Queimada2 from './forest_firer_1.png'
+import Iframe from 'react-iframe'
 
 const useStyles = makeStyles({
     root: {
@@ -17,22 +18,23 @@ const ForestFiresArticle = () => {
 
   const classes = useStyles();
     return <Grid container spacing={3}>
-        <Grid item xs={9} >
+        <Grid item xs={12} >
             <Card className={classes.root}>
                 <CardContent >
                     <Typography variant="h4" component="h2">
                         Forest Firer
                     </Typography>
                     <br />
+                    <br />
 
-                    <img src={Queimada1} alt="" width={'600px'}/>
+                    <img src={forest_firer} alt="" width={'100%'}/>
                     <br />
                     <br />
                     <Typography variant="h6" component="h2">
                         What are the forest fires?
                     </Typography>
 
-                    A forest fire is an incomplete combustion in the open air, and depends on the type of vegetable matter being burned, its density, humidity, etc., in addition to environmental conditions, especially wind speed.
+                    A forest fire is an incomplete combustion in the open air, and depends on the type of vegetable matter being burned, its density, humidity, in addition to environmental conditions, especially wind speed.
 
                     <p>
                     <Typography variant="h6" component="h2">
@@ -89,7 +91,7 @@ const ForestFiresArticle = () => {
                         <li> Variations in photosynthesis of agricultural crops that may eventually affect human nutrition</li>
                     </ul>
                     </p>
-                    <img src={Queimada2} alt="" width={'600px'}/>
+                    <img src={Queimada2} alt="" width={'100%'}/>
                     <p>
                     <Typography variant="h6" component="h2">
                         Where and why do forest fires usually occur?
@@ -123,7 +125,20 @@ const ForestFiresArticle = () => {
                 </CardContent>
             </Card>
         </Grid>
-        <Grid item xs={3} >
+
+        <Grid item xs={12} >
+            <Card className={classes.root}>
+                <Iframe url="https://worldview.earthdata.nasa.gov/?t=2019-02-26-T00%3A00%3A00Z&l=VIIRS_SNPP_Thermal_Anomalies_375m_Night,VIIRS_SNPP_Thermal_Anomalies_375m_Day(hidden),Coastlines,Reference_Features,VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Aqua_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor"
+                        width="100%"
+                        height="700px"
+                        id="earthFire"
+                        className="earthFire"
+                        display="initial"
+                        position="relative"/>
+            </Card>
+        </Grid>
+
+        <Grid item xs={12} >
             <Card className={classes.root}>
                 <CardContent >
                     <Typography variant="h5" component="h2">
@@ -134,6 +149,7 @@ const ForestFiresArticle = () => {
                             href="https://www.ma10.com.br/2020/10/01/queimadas-no-pantanal-batem-recorde-em-9-meses-e-sao-as-maiores-em-23-anos/">https://www.ma10.com.br/2020/10/01/queimadas-no-pantanal-batem-recorde-em-9-meses-e-sao-as-maiores-em-23-anos/</a></li>
                         <li><a
                             href="https://www.msnoticias.com.br/editorias/geral-ms-noticias/famoso-em-nota-de-r-200-lobo-guara-corre-risco-por-causa-de/101700/">https://www.msnoticias.com.br/editorias/geral-ms-noticias/famoso-em-nota-de-r-200-lobo-guara-corre-risco-por-causa-de/101700/</a></li>
+                        <li><a href="https://worldview.earthdata.nasa.gov/">https://worldview.earthdata.nasa.gov/</a></li>
                     </ul>
                 </CardContent>
             </Card>

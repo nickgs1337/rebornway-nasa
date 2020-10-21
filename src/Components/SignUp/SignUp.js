@@ -39,22 +39,22 @@ const SignUp = () => {
     const [isHAS, setIsHAS] = React.useState(false);
     const [isDM1, setIsDM1] = React.useState(false);
     const [isDM2, setIsDM2] = React.useState(false);
-    const [isID, setIsID] = React.useState(false);
-    const [isCP, setIsCP] = React.useState(false);
-    const [isDC, setIsDC] = React.useState(false);
+    const [isAl, setIsID] = React.useState(false);
+    const [isPa, setIsPa] = React.useState(false);
+    const [isHu, setIsHu] = React.useState(false);
+    const [isMs, setIsMs] = React.useState(false);
+    const [isEp, setIsEp] = React.useState(false);
+    const [isAs, setIsAs] = React.useState(false);
+    const [isCb, setIsCb] = React.useState(false);
+    const [isPn, setIsPn] = React.useState(false);
+    const [isAr, setIsAr] = React.useState(false);
+    const [isSi, setIsSi] = React.useState(false);
+    const [isCo, setIsCo] = React.useState(false);
     let history = useHistory();
 
     const handleSubmit = (event) => {
         event.preventDefault();
         localStorage.setItem("name", name);
-
-        console.log(isHAS);
-        console.log(isDM1);
-        console.log(isDM2);
-        console.log(isID);
-        console.log(isCP);
-        console.log(isDC);
-
 
         if(isHAS) {
             localStorage.setItem("isHAS", true);
@@ -74,24 +74,71 @@ const SignUp = () => {
             localStorage.removeItem("isDM2");
         }
 
-        if(isDM2) {
-            localStorage.setItem("isID", true);
+        if(isAl) {
+            localStorage.setItem("isAl", true);
         }else{
-            localStorage.removeItem("isID");
+            localStorage.removeItem("isAl");
         }
 
-        if(isDM2) {
-            localStorage.setItem("isCP", true);
+        if(isPa) {
+            localStorage.setItem("isPa", true);
         }else{
-            localStorage.removeItem("isCP");
+            localStorage.removeItem("isPa");
         }
 
-        if(isDM2) {
-            localStorage.setItem("isDC", true);
+        if(isHu) {
+            localStorage.setItem("isHu", true);
         }else{
-            localStorage.removeItem("isDC");
+            localStorage.removeItem("isHu");
         }
 
+        if(isMs) {
+            localStorage.setItem("isMs", true);
+        }else{
+            localStorage.removeItem("isMs");
+        }
+
+        if(isEp) {
+            localStorage.setItem("isEp", true);
+        }else{
+            localStorage.removeItem("isEp");
+        }
+
+        if(isAs) {
+            localStorage.setItem("isAs", true);
+        }else{
+            localStorage.removeItem("isAs");
+        }
+
+        if(isCb) {
+            localStorage.setItem("isCb", true);
+        }else{
+            localStorage.removeItem("isCb");
+        }
+
+        if(isPn) {
+            localStorage.setItem("isPn", true);
+        }else{
+            localStorage.removeItem("isPn");
+        }
+
+        if(isAr) {
+            localStorage.setItem("isAr", true);
+        }else{
+            localStorage.removeItem("isAr");
+        }
+
+        if(isSi) {
+            localStorage.setItem("isSi", true);
+        }else{
+            localStorage.removeItem("isSi");
+        }
+
+        if(isCo) {
+            localStorage.setItem("isCo", true);
+        }else{
+            localStorage.removeItem("isCo");
+        }
 
         window.location = window.location;
     };
@@ -100,9 +147,9 @@ const SignUp = () => {
             <Card className={classes.card}>
             <CardContent>
                 <Typography variant="h5" component="h2">
-                    Olá! Seja bem vindo!
+                    Hello! Welcome back!
                 </Typography>
-                Antes de acessar o sistema, gostariamos que nos desse algumas informações suas para personalizarmos sua experiencia.
+                Before accessing the system, we would like you to give us some of your information to personalize your experience.
                 <Divider />
                 <FormGroup row className={classes.form} onSubmit={handleSubmit}>
                     <br/>
@@ -113,7 +160,7 @@ const SignUp = () => {
                         }}
                     />
                     <br/>
-                    Selecione suas comorbidades:
+                    Select your comorbidities:
                     <FormControlLabel
                         control={<Checkbox checked={isHAS} onChange={(event, checked) => {
                             setIsHAS(checked);
@@ -133,22 +180,64 @@ const SignUp = () => {
                         label="Diabetes Type 2"
                     />
                     <FormControlLabel
-                        control={<Checkbox checked={isID} onChange={(event, checked) => {
+                        control={<Checkbox checked={isAl} onChange={(event, checked) => {
                             setIsID(checked);
                         }} name="jason" />}
-                        label="Immunodeficiency"
+                        label="Alzheimer"
                     />
                     <FormControlLabel
-                        control={<Checkbox checked={isCP} onChange={(event, checked) => {
-                            setIsCP(checked);
+                        control={<Checkbox checked={isPa} onChange={(event, checked) => {
+                            setIsPa(checked);
                         }} name="jason" />}
-                        label="Cardiopathy"
+                        label="Parkinson"
                     />
                     <FormControlLabel
-                        control={<Checkbox checked={isDC} onChange={(event, checked) => {
-                            setIsDC(checked);
+                        control={<Checkbox checked={isHu} onChange={(event, checked) => {
+                            setIsHu(checked);
                         }} name="jason" />}
-                        label="Congenital disorders"
+                        label="Huntington"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isMs} onChange={(event, checked) => {
+                            setIsMs(checked);
+                        }} name="jason" />}
+                        label="Multiple Sclerosis"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isEp} onChange={(event, checked) => {
+                            setIsEp(checked);
+                        }} name="jason" />}
+                        label="Epilepsy"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isCb} onChange={(event, checked) => {
+                            setIsCb(checked);
+                        }} name="jason" />}
+                        label="Chronic bronchitis"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isPn} onChange={(event, checked) => {
+                            setIsPn(checked);
+                        }} name="jason" />}
+                        label="Pneumonia"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isAr} onChange={(event, checked) => {
+                            setIsAr(checked);
+                        }} name="jason" />}
+                        label="Allergic rhinitis"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isSi} onChange={(event, checked) => {
+                            setIsSi(checked);
+                        }} name="jason" />}
+                        label="Sinusitis"
+                    />
+                    <FormControlLabel
+                        control={<Checkbox checked={isCo} onChange={(event, checked) => {
+                            setIsCo(checked);
+                        }} name="jason" />}
+                        label="Chronic Obstructive Pulmonary Disease"
                     />
 
                 </FormGroup>
@@ -156,7 +245,7 @@ const SignUp = () => {
             <CardActions className={classes.action}>
                 <Button size="small" style={{color: '#3468BC'}}
                     onClick={handleSubmit}
-                >Entrar</Button>
+                >Join</Button>
             </CardActions>
         </Card>
     </div>

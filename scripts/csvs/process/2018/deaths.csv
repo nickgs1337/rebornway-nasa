@@ -1,0 +1,601 @@
+State,Month,Deaths
+Alabama,01/2018,719.0
+Alabama,02/2018,458.0
+Alabama,03/2018,406.0
+Alabama,04/2018,406.0
+Alabama,05/2018,407.0
+Alabama,06/2018,332.0
+Alabama,07/2018,328.0
+Alabama,08/2018,353.0
+Alabama,09/2018,316.0
+Alabama,10/2018,345.0
+Alabama,11/2018,334.0
+Alabama,12/2018,460.0
+Alaska,01/2018,27.0
+Alaska,02/2018,26.0
+Alaska,03/2018,31.0
+Alaska,04/2018,34.0
+Alaska,05/2018,30.0
+Alaska,06/2018,27.0
+Alaska,07/2018,16.0
+Alaska,08/2018,26.0
+Alaska,09/2018,11.0
+Alaska,10/2018,26.0
+Alaska,11/2018,17.0
+Alaska,12/2018,19.0
+Arkansas,01/2018,429.0
+Arkansas,02/2018,340.0
+Arkansas,03/2018,276.0
+Arkansas,04/2018,226.0
+Arkansas,05/2018,245.0
+Arkansas,06/2018,222.0
+Arkansas,07/2018,209.0
+Arkansas,08/2018,178.0
+Arkansas,09/2018,202.0
+Arkansas,10/2018,240.0
+Arkansas,11/2018,234.0
+Arkansas,12/2018,254.0
+Arizona,01/2018,794.0
+Arizona,02/2018,485.0
+Arizona,03/2018,511.0
+Arizona,04/2018,440.0
+Arizona,05/2018,357.0
+Arizona,06/2018,345.0
+Arizona,07/2018,317.0
+Arizona,08/2018,302.0
+Arizona,09/2018,321.0
+Arizona,10/2018,305.0
+Arizona,11/2018,340.0
+Arizona,12/2018,431.0
+California,01/2018,3386.0
+California,02/2018,2099.0
+California,03/2018,2202.0
+California,04/2018,1721.0
+California,05/2018,1532.0
+California,06/2018,1349.0
+California,07/2018,1331.0
+California,08/2018,1274.0
+California,09/2018,1223.0
+California,10/2018,1285.0
+California,11/2018,1449.0
+California,12/2018,1700.0
+Kansas,01/2018,323.0
+Kansas,02/2018,300.0
+Kansas,03/2018,257.0
+Kansas,04/2018,210.0
+Kansas,05/2018,181.0
+Kansas,06/2018,161.0
+Kansas,07/2018,138.0
+Kansas,08/2018,152.0
+Kansas,09/2018,178.0
+Kansas,10/2018,188.0
+Kansas,11/2018,180.0
+Kansas,12/2018,199.0
+North Carolina,01/2018,1038.0
+North Carolina,02/2018,850.0
+North Carolina,03/2018,682.0
+North Carolina,04/2018,576.0
+North Carolina,05/2018,528.0
+North Carolina,06/2018,566.0
+North Carolina,07/2018,498.0
+North Carolina,08/2018,482.0
+North Carolina,09/2018,498.0
+North Carolina,10/2018,512.0
+North Carolina,11/2018,552.0
+North Carolina,12/2018,642.0
+South Carolina,01/2018,525.0
+South Carolina,02/2018,406.0
+South Carolina,03/2018,340.0
+South Carolina,04/2018,298.0
+South Carolina,05/2018,323.0
+South Carolina,06/2018,266.0
+South Carolina,07/2018,272.0
+South Carolina,08/2018,270.0
+South Carolina,09/2018,233.0
+South Carolina,10/2018,306.0
+South Carolina,11/2018,290.0
+South Carolina,12/2018,343.0
+Colorado,01/2018,418.0
+Colorado,02/2018,322.0
+Colorado,03/2018,335.0
+Colorado,04/2018,307.0
+Colorado,05/2018,257.0
+Colorado,06/2018,227.0
+Colorado,07/2018,206.0
+Colorado,08/2018,210.0
+Colorado,09/2018,200.0
+Colorado,10/2018,224.0
+Colorado,11/2018,254.0
+Colorado,12/2018,244.0
+Connecticut,01/2018,286.0
+Connecticut,02/2018,249.0
+Connecticut,03/2018,228.0
+Connecticut,04/2018,201.0
+Connecticut,05/2018,162.0
+Connecticut,06/2018,152.0
+Connecticut,07/2018,139.0
+Connecticut,08/2018,159.0
+Connecticut,09/2018,134.0
+Connecticut,10/2018,150.0
+Connecticut,11/2018,156.0
+Connecticut,12/2018,168.0
+North Dakota,01/2018,62.0
+North Dakota,02/2018,42.0
+North Dakota,03/2018,46.0
+North Dakota,04/2018,47.0
+North Dakota,05/2018,46.0
+North Dakota,06/2018,33.0
+North Dakota,07/2018,31.0
+North Dakota,08/2018,28.0
+North Dakota,09/2018,29.0
+North Dakota,10/2018,43.0
+North Dakota,11/2018,26.0
+North Dakota,12/2018,47.0
+South Dakota,01/2018,89.0
+South Dakota,02/2018,73.0
+South Dakota,03/2018,76.0
+South Dakota,04/2018,68.0
+South Dakota,05/2018,47.0
+South Dakota,06/2018,39.0
+South Dakota,07/2018,51.0
+South Dakota,08/2018,44.0
+South Dakota,09/2018,62.0
+South Dakota,10/2018,65.0
+South Dakota,11/2018,58.0
+South Dakota,12/2018,71.0
+Delaware,01/2018,59.0
+Delaware,02/2018,88.0
+Delaware,03/2018,79.0
+Delaware,04/2018,64.0
+Delaware,05/2018,45.0
+Delaware,06/2018,46.0
+Delaware,07/2018,56.0
+Delaware,08/2018,61.0
+Delaware,09/2018,44.0
+Delaware,10/2018,57.0
+Delaware,11/2018,57.0
+Delaware,12/2018,43.0
+Florida,01/2018,1880.0
+Florida,02/2018,1574.0
+Florida,03/2018,1480.0
+Florida,04/2018,1334.0
+Florida,05/2018,1219.0
+Florida,06/2018,1193.0
+Florida,07/2018,1147.0
+Florida,08/2018,1073.0
+Florida,09/2018,1078.0
+Florida,10/2018,1105.0
+Florida,11/2018,1091.0
+Florida,12/2018,1279.0
+Georgia,01/2018,863.0
+Georgia,02/2018,739.0
+Georgia,03/2018,624.0
+Georgia,04/2018,498.0
+Georgia,05/2018,534.0
+Georgia,06/2018,428.0
+Georgia,07/2018,420.0
+Georgia,08/2018,436.0
+Georgia,09/2018,443.0
+Georgia,10/2018,476.0
+Georgia,11/2018,479.0
+Georgia,12/2018,578.0
+Hawaii,01/2018,108.0
+Hawaii,02/2018,77.0
+Hawaii,03/2018,88.0
+Hawaii,04/2018,88.0
+Hawaii,05/2018,70.0
+Hawaii,06/2018,83.0
+Hawaii,07/2018,64.0
+Hawaii,08/2018,71.0
+Hawaii,09/2018,73.0
+Hawaii,10/2018,68.0
+Hawaii,11/2018,66.0
+Hawaii,12/2018,78.0
+Idaho,01/2018,142.0
+Idaho,02/2018,104.0
+Idaho,03/2018,116.0
+Idaho,04/2018,111.0
+Idaho,05/2018,105.0
+Idaho,06/2018,90.0
+Idaho,07/2018,76.0
+Idaho,08/2018,58.0
+Idaho,09/2018,74.0
+Idaho,10/2018,86.0
+Idaho,11/2018,85.0
+Idaho,12/2018,88.0
+Rhode Island,01/2018,89.0
+Rhode Island,02/2018,77.0
+Rhode Island,03/2018,54.0
+Rhode Island,04/2018,59.0
+Rhode Island,05/2018,60.0
+Rhode Island,06/2018,55.0
+Rhode Island,07/2018,55.0
+Rhode Island,08/2018,44.0
+Rhode Island,09/2018,41.0
+Rhode Island,10/2018,35.0
+Rhode Island,11/2018,52.0
+Rhode Island,12/2018,37.0
+Illinois,01/2018,1164.0
+Illinois,02/2018,796.0
+Illinois,03/2018,825.0
+Illinois,04/2018,730.0
+Illinois,05/2018,624.0
+Illinois,06/2018,555.0
+Illinois,07/2018,554.0
+Illinois,08/2018,552.0
+Illinois,09/2018,548.0
+Illinois,10/2018,616.0
+Illinois,11/2018,534.0
+Illinois,12/2018,705.0
+Indiana,01/2018,763.0
+Indiana,02/2018,569.0
+Indiana,03/2018,575.0
+Indiana,04/2018,481.0
+Indiana,05/2018,429.0
+Indiana,06/2018,443.0
+Indiana,07/2018,389.0
+Indiana,08/2018,413.0
+Indiana,09/2018,396.0
+Indiana,10/2018,384.0
+Indiana,11/2018,404.0
+Indiana,12/2018,490.0
+Iowa,01/2018,341.0
+Iowa,02/2018,302.0
+Iowa,03/2018,263.0
+Iowa,04/2018,238.0
+Iowa,05/2018,164.0
+Iowa,06/2018,169.0
+Iowa,07/2018,155.0
+Iowa,08/2018,169.0
+Iowa,09/2018,170.0
+Iowa,10/2018,188.0
+Iowa,11/2018,180.0
+Iowa,12/2018,220.0
+Kentucky,01/2018,652.0
+Kentucky,02/2018,414.0
+Kentucky,03/2018,425.0
+Kentucky,04/2018,342.0
+Kentucky,05/2018,348.0
+Kentucky,06/2018,301.0
+Kentucky,07/2018,337.0
+Kentucky,08/2018,294.0
+Kentucky,09/2018,283.0
+Kentucky,10/2018,283.0
+Kentucky,11/2018,325.0
+Kentucky,12/2018,386.0
+Louisiana,01/2018,539.0
+Louisiana,02/2018,315.0
+Louisiana,03/2018,253.0
+Louisiana,04/2018,258.0
+Louisiana,05/2018,226.0
+Louisiana,06/2018,205.0
+Louisiana,07/2018,210.0
+Louisiana,08/2018,216.0
+Louisiana,09/2018,212.0
+Louisiana,10/2018,229.0
+Louisiana,11/2018,238.0
+Louisiana,12/2018,264.0
+Maine,01/2018,138.0
+Maine,02/2018,135.0
+Maine,03/2018,136.0
+Maine,04/2018,106.0
+Maine,05/2018,115.0
+Maine,06/2018,77.0
+Maine,07/2018,83.0
+Maine,08/2018,92.0
+Maine,09/2018,84.0
+Maine,10/2018,107.0
+Maine,11/2018,83.0
+Maine,12/2018,94.0
+Maryland,01/2018,402.0
+Maryland,02/2018,334.0
+Maryland,03/2018,316.0
+Maryland,04/2018,292.0
+Maryland,05/2018,240.0
+Maryland,06/2018,243.0
+Maryland,07/2018,243.0
+Maryland,08/2018,206.0
+Maryland,09/2018,189.0
+Maryland,10/2018,225.0
+Maryland,11/2018,237.0
+Maryland,12/2018,280.0
+Massachusetts,01/2018,546.0
+Massachusetts,02/2018,484.0
+Massachusetts,03/2018,424.0
+Massachusetts,04/2018,382.0
+Massachusetts,05/2018,335.0
+Massachusetts,06/2018,282.0
+Massachusetts,07/2018,276.0
+Massachusetts,08/2018,264.0
+Massachusetts,09/2018,255.0
+Massachusetts,10/2018,302.0
+Massachusetts,11/2018,308.0
+Massachusetts,12/2018,343.0
+Michigan,01/2018,966.0
+Michigan,02/2018,781.0
+Michigan,03/2018,756.0
+Michigan,04/2018,695.0
+Michigan,05/2018,601.0
+Michigan,06/2018,546.0
+Michigan,07/2018,549.0
+Michigan,08/2018,499.0
+Michigan,09/2018,479.0
+Michigan,10/2018,593.0
+Michigan,11/2018,566.0
+Michigan,12/2018,619.0
+Minnesota,01/2018,444.0
+Minnesota,02/2018,334.0
+Minnesota,03/2018,254.0
+Minnesota,04/2018,245.0
+Minnesota,05/2018,242.0
+Minnesota,06/2018,243.0
+Minnesota,07/2018,217.0
+Minnesota,08/2018,192.0
+Minnesota,09/2018,200.0
+Minnesota,10/2018,230.0
+Minnesota,11/2018,197.0
+Minnesota,12/2018,255.0
+Mississippi,01/2018,423.0
+Mississippi,02/2018,283.0
+Mississippi,03/2018,269.0
+Mississippi,04/2018,237.0
+Mississippi,05/2018,236.0
+Mississippi,06/2018,231.0
+Mississippi,07/2018,223.0
+Mississippi,08/2018,195.0
+Mississippi,09/2018,202.0
+Mississippi,10/2018,245.0
+Mississippi,11/2018,223.0
+Mississippi,12/2018,277.0
+Missouri,01/2018,866.0
+Missouri,02/2018,634.0
+Missouri,03/2018,534.0
+Missouri,04/2018,449.0
+Missouri,05/2018,384.0
+Missouri,06/2018,369.0
+Missouri,07/2018,334.0
+Missouri,08/2018,347.0
+Missouri,09/2018,365.0
+Missouri,10/2018,353.0
+Missouri,11/2018,365.0
+Missouri,12/2018,455.0
+Montana,01/2018,84.0
+Montana,02/2018,89.0
+Montana,03/2018,91.0
+Montana,04/2018,66.0
+Montana,05/2018,63.0
+Montana,06/2018,62.0
+Montana,07/2018,61.0
+Montana,08/2018,60.0
+Montana,09/2018,69.0
+Montana,10/2018,71.0
+Montana,11/2018,69.0
+Montana,12/2018,57.0
+Nebraska,01/2018,218.0
+Nebraska,02/2018,150.0
+Nebraska,03/2018,170.0
+Nebraska,04/2018,118.0
+Nebraska,05/2018,106.0
+Nebraska,06/2018,100.0
+Nebraska,07/2018,110.0
+Nebraska,08/2018,107.0
+Nebraska,09/2018,114.0
+Nebraska,10/2018,115.0
+Nebraska,11/2018,103.0
+Nebraska,12/2018,125.0
+Nevada,01/2018,306.0
+Nevada,02/2018,206.0
+Nevada,03/2018,203.0
+Nevada,04/2018,198.0
+Nevada,05/2018,173.0
+Nevada,06/2018,180.0
+Nevada,07/2018,142.0
+Nevada,08/2018,134.0
+Nevada,09/2018,172.0
+Nevada,10/2018,136.0
+Nevada,11/2018,165.0
+Nevada,12/2018,164.0
+New Hampshire,01/2018,147.0
+New Hampshire,02/2018,110.0
+New Hampshire,03/2018,106.0
+New Hampshire,04/2018,89.0
+New Hampshire,05/2018,72.0
+New Hampshire,06/2018,79.0
+New Hampshire,07/2018,56.0
+New Hampshire,08/2018,70.0
+New Hampshire,09/2018,65.0
+New Hampshire,10/2018,79.0
+New Hampshire,11/2018,73.0
+New Hampshire,12/2018,75.0
+New Jersey,01/2018,583.0
+New Jersey,02/2018,530.0
+New Jersey,03/2018,402.0
+New Jersey,04/2018,382.0
+New Jersey,05/2018,357.0
+New Jersey,06/2018,330.0
+New Jersey,07/2018,318.0
+New Jersey,08/2018,334.0
+New Jersey,09/2018,303.0
+New Jersey,10/2018,348.0
+New Jersey,11/2018,348.0
+New Jersey,12/2018,440.0
+New York,01/2018,1487.0
+New York,02/2018,1300.0
+New York,03/2018,1140.0
+New York,04/2018,1040.0
+New York,05/2018,975.0
+New York,06/2018,858.0
+New York,07/2018,867.0
+New York,08/2018,803.0
+New York,09/2018,808.0
+New York,10/2018,922.0
+New York,11/2018,861.0
+New York,12/2018,958.0
+New Mexico,01/2018,202.0
+New Mexico,02/2018,198.0
+New Mexico,03/2018,150.0
+New Mexico,04/2018,129.0
+New Mexico,05/2018,123.0
+New Mexico,06/2018,104.0
+New Mexico,07/2018,117.0
+New Mexico,08/2018,98.0
+New Mexico,09/2018,80.0
+New Mexico,10/2018,92.0
+New Mexico,11/2018,113.0
+New Mexico,12/2018,119.0
+Oklahoma,01/2018,542.0
+Oklahoma,02/2018,496.0
+Oklahoma,03/2018,322.0
+Oklahoma,04/2018,319.0
+Oklahoma,05/2018,285.0
+Oklahoma,06/2018,283.0
+Oklahoma,07/2018,251.0
+Oklahoma,08/2018,236.0
+Oklahoma,09/2018,235.0
+Oklahoma,10/2018,230.0
+Oklahoma,11/2018,279.0
+Oklahoma,12/2018,344.0
+Ohio,01/2018,1398.0
+Ohio,02/2018,989.0
+Ohio,03/2018,950.0
+Ohio,04/2018,838.0
+Ohio,05/2018,749.0
+Ohio,06/2018,693.0
+Ohio,07/2018,653.0
+Ohio,08/2018,669.0
+Ohio,09/2018,656.0
+Ohio,10/2018,716.0
+Ohio,11/2018,768.0
+Ohio,12/2018,834.0
+Oregon,01/2018,332.0
+Oregon,02/2018,242.0
+Oregon,03/2018,275.0
+Oregon,04/2018,220.0
+Oregon,05/2018,181.0
+Oregon,06/2018,186.0
+Oregon,07/2018,161.0
+Oregon,08/2018,146.0
+Oregon,09/2018,140.0
+Oregon,10/2018,137.0
+Oregon,11/2018,204.0
+Oregon,12/2018,225.0
+Pennsylvania,01/2018,1213.0
+Pennsylvania,02/2018,1068.0
+Pennsylvania,03/2018,931.0
+Pennsylvania,04/2018,794.0
+Pennsylvania,05/2018,755.0
+Pennsylvania,06/2018,636.0
+Pennsylvania,07/2018,602.0
+Pennsylvania,08/2018,611.0
+Pennsylvania,09/2018,574.0
+Pennsylvania,10/2018,685.0
+Pennsylvania,11/2018,665.0
+Pennsylvania,12/2018,785.0
+Tennessee,01/2018,922.0
+Tennessee,02/2018,634.0
+Tennessee,03/2018,523.0
+Tennessee,04/2018,519.0
+Tennessee,05/2018,490.0
+Tennessee,06/2018,481.0
+Tennessee,07/2018,464.0
+Tennessee,08/2018,407.0
+Tennessee,09/2018,389.0
+Tennessee,10/2018,484.0
+Tennessee,11/2018,466.0
+Tennessee,12/2018,529.0
+Texas,01/2018,2274.0
+Texas,02/2018,1566.0
+Texas,03/2018,1294.0
+Texas,04/2018,1089.0
+Texas,05/2018,1036.0
+Texas,06/2018,965.0
+Texas,07/2018,950.0
+Texas,08/2018,915.0
+Texas,09/2018,882.0
+Texas,10/2018,977.0
+Texas,11/2018,1087.0
+Texas,12/2018,1247.0
+Utah,01/2018,146.0
+Utah,02/2018,121.0
+Utah,03/2018,112.0
+Utah,04/2018,135.0
+Utah,05/2018,102.0
+Utah,06/2018,81.0
+Utah,07/2018,77.0
+Utah,08/2018,87.0
+Utah,09/2018,82.0
+Utah,10/2018,96.0
+Utah,11/2018,98.0
+Utah,12/2018,96.0
+Vermont,01/2018,46.0
+Vermont,02/2018,65.0
+Vermont,03/2018,47.0
+Vermont,04/2018,36.0
+Vermont,05/2018,35.0
+Vermont,06/2018,33.0
+Vermont,07/2018,28.0
+Vermont,08/2018,21.0
+Vermont,09/2018,30.0
+Vermont,10/2018,34.0
+Vermont,11/2018,40.0
+Vermont,12/2018,25.0
+Virginia,01/2018,617.0
+Virginia,02/2018,538.0
+Virginia,03/2018,435.0
+Virginia,04/2018,403.0
+Virginia,05/2018,358.0
+Virginia,06/2018,363.0
+Virginia,07/2018,328.0
+Virginia,08/2018,330.0
+Virginia,09/2018,281.0
+Virginia,10/2018,333.0
+Virginia,11/2018,370.0
+Virginia,12/2018,392.0
+West Virginia,01/2018,304.0
+West Virginia,02/2018,223.0
+West Virginia,03/2018,215.0
+West Virginia,04/2018,195.0
+West Virginia,05/2018,199.0
+West Virginia,06/2018,153.0
+West Virginia,07/2018,150.0
+West Virginia,08/2018,144.0
+West Virginia,09/2018,150.0
+West Virginia,10/2018,165.0
+West Virginia,11/2018,178.0
+West Virginia,12/2018,186.0
+Washington,01/2018,514.0
+Washington,02/2018,410.0
+Washington,03/2018,409.0
+Washington,04/2018,327.0
+Washington,05/2018,286.0
+Washington,06/2018,283.0
+Washington,07/2018,284.0
+Washington,08/2018,229.0
+Washington,09/2018,257.0
+Washington,10/2018,313.0
+Washington,11/2018,294.0
+Washington,12/2018,322.0
+Wisconsin,01/2018,513.0
+Wisconsin,02/2018,428.0
+Wisconsin,03/2018,419.0
+Wisconsin,04/2018,383.0
+Wisconsin,05/2018,303.0
+Wisconsin,06/2018,263.0
+Wisconsin,07/2018,269.0
+Wisconsin,08/2018,249.0
+Wisconsin,09/2018,265.0
+Wisconsin,10/2018,265.0
+Wisconsin,11/2018,252.0
+Wisconsin,12/2018,332.0
+Wyoming,01/2018,71.0
+Wyoming,02/2018,49.0
+Wyoming,03/2018,58.0
+Wyoming,04/2018,47.0
+Wyoming,05/2018,47.0
+Wyoming,06/2018,32.0
+Wyoming,07/2018,42.0
+Wyoming,08/2018,26.0
+Wyoming,09/2018,34.0
+Wyoming,10/2018,39.0
+Wyoming,11/2018,42.0
+Wyoming,12/2018,52.0
